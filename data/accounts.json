@@ -1,0 +1,579 @@
+{
+  "accounts": {
+    "dummy": {
+      "id": "dummy",
+      "email": "dummy@isp.local",
+      "password": "dummy-password",
+      "walkthroughCompleted": false,
+      "state": {
+        "world": {
+          "lawName": "Interstellar Settlement Protocol",
+          "lawYear": 2147,
+          "systems": [
+            {
+              "id": "sol",
+              "name": "Sol",
+              "gdpIndex": 98,
+              "pirateDensity": 11,
+              "activityLevel": 95,
+              "ownerRule": "No direct ownership. Mining rights are leased.",
+              "bodies": [
+                {
+                  "id": "earth",
+                  "name": "Earth",
+                  "type": "Planet",
+                  "x": 0,
+                  "y": 0,
+                  "radius": 8
+                },
+                {
+                  "id": "luna",
+                  "name": "Luna",
+                  "type": "Moon",
+                  "x": 26,
+                  "y": 0,
+                  "radius": 3
+                },
+                {
+                  "id": "mars",
+                  "name": "Mars",
+                  "type": "Planet",
+                  "x": 72,
+                  "y": 0,
+                  "radius": 6
+                },
+                {
+                  "id": "belt",
+                  "name": "Asteroid Belt",
+                  "type": "Field",
+                  "x": 120,
+                  "y": 0,
+                  "radius": 12
+                }
+              ]
+            },
+            {
+              "id": "alpha-centauri",
+              "name": "Alpha Centauri",
+              "gdpIndex": 84,
+              "pirateDensity": 15,
+              "activityLevel": 77,
+              "ownerRule": "Neutral authority oversight with corporate lease competition.",
+              "bodies": [
+                {
+                  "id": "ac-prime",
+                  "name": "Centauri Prime",
+                  "type": "Planet",
+                  "x": 50,
+                  "y": 0,
+                  "radius": 7
+                },
+                {
+                  "id": "ac-ii",
+                  "name": "Centauri II",
+                  "type": "Planet",
+                  "x": 86,
+                  "y": 0,
+                  "radius": 5
+                },
+                {
+                  "id": "ac-haven",
+                  "name": "Haven",
+                  "type": "Moon",
+                  "x": 102,
+                  "y": 0,
+                  "radius": 3
+                },
+                {
+                  "id": "ac-belt",
+                  "name": "Centauri Belt",
+                  "type": "Field",
+                  "x": 126,
+                  "y": 0,
+                  "radius": 10
+                }
+              ]
+            },
+            {
+              "id": "barnards-star",
+              "name": "Barnard's Star",
+              "gdpIndex": 66,
+              "pirateDensity": 22,
+              "activityLevel": 59,
+              "ownerRule": "Frontier charter system with low-regulation extraction rights.",
+              "bodies": [
+                {
+                  "id": "bn-iron",
+                  "name": "Ironwell",
+                  "type": "Planet",
+                  "x": 48,
+                  "y": 0,
+                  "radius": 6
+                },
+                {
+                  "id": "bn-cinder",
+                  "name": "Cinder",
+                  "type": "Planet",
+                  "x": 82,
+                  "y": 0,
+                  "radius": 4
+                },
+                {
+                  "id": "bn-arc",
+                  "name": "Arcadia",
+                  "type": "Moon",
+                  "x": 103,
+                  "y": 0,
+                  "radius": 3
+                },
+                {
+                  "id": "bn-rift",
+                  "name": "Rift Debris Ring",
+                  "type": "Field",
+                  "x": 132,
+                  "y": 0,
+                  "radius": 11
+                }
+              ]
+            },
+            {
+              "id": "wolf-359",
+              "name": "Wolf 359",
+              "gdpIndex": 58,
+              "pirateDensity": 31,
+              "activityLevel": 51,
+              "ownerRule": "High-risk conflict zone with arbitration-based claims.",
+              "bodies": [
+                {
+                  "id": "wf-halo",
+                  "name": "Halo",
+                  "type": "Planet",
+                  "x": 44,
+                  "y": 0,
+                  "radius": 5
+                },
+                {
+                  "id": "wf-garnet",
+                  "name": "Garnet",
+                  "type": "Planet",
+                  "x": 77,
+                  "y": 0,
+                  "radius": 6
+                },
+                {
+                  "id": "wf-veil",
+                  "name": "Veil",
+                  "type": "Moon",
+                  "x": 92,
+                  "y": 0,
+                  "radius": 3
+                },
+                {
+                  "id": "wf-shards",
+                  "name": "Shard Belt",
+                  "type": "Field",
+                  "x": 126,
+                  "y": 0,
+                  "radius": 10
+                }
+              ]
+            },
+            {
+              "id": "tau-ceti",
+              "name": "Tau Ceti",
+              "gdpIndex": 71,
+              "pirateDensity": 18,
+              "activityLevel": 64,
+              "ownerRule": "Treaty-governed commercial corridor with tariff controls.",
+              "bodies": [
+                {
+                  "id": "tc-verde",
+                  "name": "Verde",
+                  "type": "Planet",
+                  "x": 47,
+                  "y": 0,
+                  "radius": 7
+                },
+                {
+                  "id": "tc-lumen",
+                  "name": "Lumen",
+                  "type": "Planet",
+                  "x": 84,
+                  "y": 0,
+                  "radius": 5
+                },
+                {
+                  "id": "tc-aqua",
+                  "name": "Aqua Minor",
+                  "type": "Moon",
+                  "x": 101,
+                  "y": 0,
+                  "radius": 3
+                },
+                {
+                  "id": "tc-cloud",
+                  "name": "Tau Ice Cloud",
+                  "type": "Field",
+                  "x": 128,
+                  "y": 0,
+                  "radius": 11
+                }
+              ]
+            },
+            {
+              "id": "epsilon-eridani",
+              "name": "Epsilon Eridani",
+              "gdpIndex": 62,
+              "pirateDensity": 25,
+              "activityLevel": 55,
+              "ownerRule": "Semi-private jurisdiction with licensed station authorities.",
+              "bodies": [
+                {
+                  "id": "ee-kestrel",
+                  "name": "Kestrel",
+                  "type": "Planet",
+                  "x": 46,
+                  "y": 0,
+                  "radius": 6
+                },
+                {
+                  "id": "ee-orion",
+                  "name": "Orion Reach",
+                  "type": "Planet",
+                  "x": 78,
+                  "y": 0,
+                  "radius": 5
+                },
+                {
+                  "id": "ee-lyra",
+                  "name": "Lyra",
+                  "type": "Moon",
+                  "x": 95,
+                  "y": 0,
+                  "radius": 3
+                },
+                {
+                  "id": "ee-crown",
+                  "name": "Crown Belt",
+                  "type": "Field",
+                  "x": 124,
+                  "y": 0,
+                  "radius": 10
+                }
+              ]
+            }
+          ],
+          "resourceCatalog": [
+            "Silicates",
+            "Helium-3",
+            "Nickel",
+            "Titanium",
+            "Carbon",
+            "Water Ice",
+            "Rare Earths",
+            "Thorium",
+            "Hydrogen",
+            "Lithium",
+            "Cobalt",
+            "Uranium",
+            "Exotic Matter"
+          ],
+          "refineryChains": [
+            {
+              "id": "silicates-chain",
+              "input": "Silicates",
+              "outputs": [
+                "Aerogel",
+                "Quantum Insulators"
+              ],
+              "requiresResearch": [
+                "Material Compression I",
+                "Nano-Lattice Weaving"
+              ]
+            },
+            {
+              "id": "he3-chain",
+              "input": "Helium-3",
+              "outputs": [
+                "Plasma Conduits",
+                "Dark-Matter Capacitors"
+              ],
+              "requiresResearch": [
+                "Containment Physics I",
+                "Exotic Energy Routing"
+              ]
+            }
+          ]
+        },
+        "corp": {
+          "id": "corp-001",
+          "ceo": "Test Director",
+          "corporationName": "Protocol Sandbox Dynamics",
+          "level": 1,
+          "levelCap": 40,
+          "milestonesCompleted": [
+            "Construct Basic Extractor Yard"
+          ],
+          "milestoneRoadmap": [
+            "Reach 10 employees",
+            "Construct Basic Extractor Yard",
+            "Mine 300 Silicates",
+            "Complete first Corporate R&D project",
+            "Reached Corporation Level 2",
+            "Reach 20 employees",
+            "Construct Refinery Annex",
+            "Produce 150 refined components",
+            "Unlock 2 additional research nodes",
+            "Reached Corporation Level 3",
+            "Expand to 30 employees",
+            "Open second extraction contract",
+            "Complete 3 market sell contracts",
+            "Maintain positive net flow for 3 cycles",
+            "Reached Corporation Level 4",
+            "Reach 40 employees",
+            "Upgrade extraction to Tier 2",
+            "Secure long-term logistics agreement",
+            "Build strategic reserve of 500 Silicates",
+            "Reached Corporation Level 5",
+            "Reach 55 employees",
+            "Field first defensive fleet detachment",
+            "Complete 2 CEO insight programs",
+            "Produce first advanced material output",
+            "Reached Corporation Level 6",
+            "Reach 70 employees",
+            "Establish off-world outpost operations",
+            "Complete 10 successful market trades",
+            "Unlock regional operations charter",
+            "Reached Corporation Level 7",
+            "Reach 85 employees",
+            "Construct second refinery line",
+            "Accumulate 1.5M credits in assets",
+            "Complete first diplomacy mission",
+            "Reached Corporation Level 8",
+            "Reach 100 employees",
+            "Sustain two profitable supply chains",
+            "Deploy first destroyer wing",
+            "Complete security compliance audit",
+            "Reached Corporation Level 9",
+            "Reach 120 employees",
+            "Operate three system contracts simultaneously",
+            "Maintain liquidity cap above 350,000",
+            "Complete strategic expansion review",
+            "Reached Corporation Level 10"
+          ],
+          "employeeCap": 20,
+          "employeeCount": 0,
+          "buildingSlots": 2,
+          "buildings": [
+            {
+              "name": "Headquarters",
+              "tier": 1,
+              "status": "Operational"
+            },
+            {
+              "name": "Basic Extractor Yard",
+              "tier": 1,
+              "status": "Operational"
+            }
+          ],
+          "military": {
+            "lightFighters": 0,
+            "destroyers": 0,
+            "siegeEngines": 0,
+            "attackValue": 0,
+            "defenseValue": 0,
+            "modifiers": {
+              "rdBonusPct": 0,
+              "ceoLeadershipPct": 0
+            }
+          },
+          "finances": {
+            "credits": 85000,
+            "liabilities": 0,
+            "assets": 192000,
+            "dailyRevenue": 0,
+            "dailyCosts": 0,
+            "liquidity": 25000,
+            "liquidityCap": 90000,
+            "liquidityRegenPerHour": 3600,
+            "lastLiquidityTick": 1774919826538,
+            "inflationBySystem": {
+              "Sol": 2.1,
+              "Alpha Centauri": 1.8,
+              "Barnard's Star": 1.1
+            },
+            "taxRatePct": 14,
+            "bondYieldPct": 0
+          },
+          "inventory": {},
+          "mining": {
+            "silicateExtractor": {
+              "active": false,
+              "startedAt": null,
+              "lastTickAt": null,
+              "endsAt": null,
+              "throughputPerHour": 0,
+              "operationCostPerHour": 0,
+              "totalMined": 0,
+              "totalSpent": 0,
+              "lastCompletedAt": null
+            }
+          },
+          "unlocks": {
+            "marketSectors": [
+              "Raw Materials"
+            ],
+            "maxUpgradeTier": 1,
+            "maxFleetSize": 8
+          },
+          "unlockedTech": [],
+          "investments": [],
+          "levelProgress": {
+            "level2": {
+              "requirements": [
+                {
+                  "id": "hire10",
+                  "title": "Hire 10 Employees",
+                  "progress": 0,
+                  "target": 10,
+                  "complete": false
+                },
+                {
+                  "id": "extractor",
+                  "title": "Construct Basic Extractor Yard",
+                  "progress": 1,
+                  "target": 1,
+                  "complete": true
+                },
+                {
+                  "id": "mine300Silicates",
+                  "title": "Mine 300 Silicates",
+                  "progress": 0,
+                  "target": 300,
+                  "complete": false
+                },
+                {
+                  "id": "firstRnD",
+                  "title": "Complete Basic Extraction Analytics",
+                  "progress": 0,
+                  "target": 1,
+                  "complete": false
+                }
+              ],
+              "allCompleted": false
+            }
+          }
+        },
+        "queues": {
+          "corporateRnD": [],
+          "ceoInsight": []
+        },
+        "market": {
+          "orderBook": [
+            {
+              "id": "ord-001",
+              "type": "sell",
+              "item": "Silicates",
+              "quantity": 1200,
+              "unitPrice": 58,
+              "seller": "Nova Ridge LLC"
+            },
+            {
+              "id": "ord-002",
+              "type": "buy",
+              "item": "Helium-3",
+              "quantity": 500,
+              "unitPrice": 185,
+              "buyer": "Tau Vector Inc."
+            }
+          ],
+          "mercenaryContracts": [
+            {
+              "id": "merc-001",
+              "provider": "Black Orbit Security",
+              "unitType": "Destroyer Wing",
+              "strength": 340,
+              "durationHours": 48,
+              "ratePerHour": 5200
+            }
+          ]
+        },
+        "conglomerates": [
+          {
+            "id": "cong-001",
+            "name": "Helios Combine",
+            "level": 2,
+            "memberCount": 5,
+            "maxMembers": 8,
+            "pooledResources": {
+              "credits": 8200000,
+              "titanium": 14000,
+              "helium3": 2300
+            }
+          }
+        ],
+        "forums": {
+          "categories": [
+            "General Discussion",
+            "Trading",
+            "Conglomerate Recruitment",
+            "Off-Topic",
+            "Politics & Law",
+            "Tutorials & Guides"
+          ],
+          "threads": [
+            {
+              "id": "thr-001",
+              "category": "Politics & Law",
+              "title": "Legal strategies against predatory mineral leases",
+              "author": "LexNova",
+              "likes": 14,
+              "createdAt": 1774855026535,
+              "replies": [
+                {
+                  "id": "rep-001",
+                  "author": "Iron Meridian",
+                  "content": "Arbitration timing matters more than filing volume in Sol jurisdiction.",
+                  "likes": 4,
+                  "createdAt": 1774876626535
+                }
+              ]
+            }
+          ]
+        },
+        "missions": [
+          {
+            "id": "ms-001",
+            "title": "Asteroid Belt Distress Relay",
+            "type": "Rescue",
+            "risk": "Medium",
+            "reward": "85,000 Credits + Reputation",
+            "text": "A civilian tug lost guidance near Belt Sector C. Escort and recover crew.",
+            "canShiftControl": false
+          },
+          {
+            "id": "ms-002",
+            "title": "Ghost Signal in Barnard Orbit",
+            "type": "Story",
+            "risk": "High",
+            "reward": "Prototype Sensor Grid + Territory Influence",
+            "text": "Investigate encrypted beacon linked to dormant pirate logistics.",
+            "canShiftControl": true
+          }
+        ],
+        "combatReports": [],
+        "chatLog": {
+          "global": [],
+          "local": [],
+          "trade": [],
+          "private": []
+        },
+        "playerProfile": {
+          "isNewPlayer": true,
+          "registeredAt": 1774919826535,
+          "walkthroughCompleted": false
+        }
+      }
+    }
+  }
+}
