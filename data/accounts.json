@@ -429,12 +429,16 @@
           "id": "corp-001",
           "ceo": "Test Director",
           "corporationName": "Protocol Sandbox Dynamics",
-          "level": 1,
+          "level": 2,
           "levelCap": 40,
           "milestonesCompleted": [
             "Hire 5 Employees",
             "Rent an Office",
-            "Reached Corporation Level 1"
+            "Reached Corporation Level 1",
+            "Purchase a Mining Lease on Mars",
+            "Build a Basic Extractor Yard",
+            "Mine 300 Silicate",
+            "Reached Corporation Level 2"
           ],
           "milestoneRoadmap": [
             "Rent an Office",
@@ -483,12 +487,17 @@
             "Research Extrasolar Expansion Protocols",
             "Reached Corporation Level 10"
           ],
-          "employeeCap": 20,
+          "employeeCap": 30,
           "employeeCount": 5,
-          "buildingSlots": 2,
+          "buildingSlots": 4,
           "buildings": [
             {
               "name": "Headquarters",
+              "tier": 1,
+              "status": "Operational"
+            },
+            {
+              "name": "Basic Extractor Yard",
               "tier": 1,
               "status": "Operational"
             }
@@ -505,10 +514,10 @@
             }
           },
           "finances": {
-            "credits": 124000,
+            "credits": 26074,
             "liabilities": 0,
-            "assets": 160000,
-            "dailyRevenue": 0,
+            "assets": 196000,
+            "dailyRevenue": 838,
             "dailyCosts": 180,
             "liquidity": 90000,
             "liquidityCap": 90000,
@@ -522,16 +531,50 @@
             "taxRatePct": 14,
             "bondYieldPct": 0
           },
-          "inventory": {},
+          "inventory": {
+            "Silicates": 84
+          },
           "mining": {
-            "silicateExtractors": []
+            "silicateExtractors": [
+              {
+                "id": "ext-basic-1",
+                "name": "Basic Extractor Yard #1",
+                "tier": 1,
+                "active": true,
+                "startedAt": 1775333057848,
+                "lastTickAt": 1775337850231,
+                "endsAt": 1775419457848,
+                "throughputPerHour": 250,
+                "operationCostPerHour": 4000,
+                "totalMined": 308,
+                "totalSpent": 6718,
+                "lastCompletedAt": null,
+                "leaseId": "lease-1775333048917-w5e9g0"
+              }
+            ],
+            "silicateExtractor": {
+              "id": "ext-basic-1",
+              "name": "Basic Extractor Yard #1",
+              "tier": 1,
+              "active": true,
+              "startedAt": 1775333057848,
+              "lastTickAt": 1775337850231,
+              "endsAt": 1775419457848,
+              "throughputPerHour": 250,
+              "operationCostPerHour": 4000,
+              "totalMined": 308,
+              "totalSpent": 6718,
+              "lastCompletedAt": null,
+              "leaseId": "lease-1775333048917-w5e9g0"
+            }
           },
           "unlocks": {
             "marketSectors": [
-              "Raw Materials"
+              "Raw Materials",
+              "Logistics Services"
             ],
             "maxUpgradeTier": 1,
-            "maxFleetSize": 8,
+            "maxFleetSize": 14,
             "maxBasicExtractorYards": 1
           },
           "unlockedTech": [],
@@ -562,33 +605,33 @@
                 {
                   "id": "marsLease",
                   "title": "Purchase a Mining Lease on Mars",
-                  "progress": 0,
+                  "progress": 1,
                   "target": 1,
-                  "complete": false
+                  "complete": true
                 },
                 {
                   "id": "extractor",
                   "title": "Build a Basic Extractor Yard",
-                  "progress": 0,
+                  "progress": 1,
                   "target": 1,
-                  "complete": false
+                  "complete": true
                 },
                 {
                   "id": "mine300",
                   "title": "Mine 300 Silicate",
-                  "progress": 0,
+                  "progress": 308,
                   "target": 300,
-                  "complete": false
+                  "complete": true
                 }
               ],
-              "allCompleted": false
+              "allCompleted": true
             },
             "level3": {
               "requirements": [
                 {
                   "id": "sell300Silicate",
                   "title": "Sell 300 Silicate on the Galactic Exchange",
-                  "progress": 0,
+                  "progress": 224,
                   "target": 300,
                   "complete": false
                 },
@@ -607,7 +650,7 @@
                 {
                   "id": "extractor2",
                   "title": "Build a Second Extractor Yard",
-                  "progress": 0,
+                  "progress": 1,
                   "target": 2,
                   "complete": false
                 },
@@ -628,7 +671,7 @@
                 {
                   "id": "sell50000Silicate",
                   "title": "Sell 50,000 Silicate",
-                  "progress": 0,
+                  "progress": 224,
                   "target": 50000,
                   "complete": false
                 }
@@ -647,14 +690,14 @@
                 {
                   "id": "secondLease",
                   "title": "Purchase a Second Mining Lease",
-                  "progress": 0,
+                  "progress": 1,
                   "target": 2,
                   "complete": false
                 },
                 {
                   "id": "extractor3",
                   "title": "Build a Third Extractor Yard",
-                  "progress": 0,
+                  "progress": 1,
                   "target": 3,
                   "complete": false
                 },
@@ -844,10 +887,48 @@
               "rentedAt": 1775328755471
             }
           ],
-          "officeRented": true
+          "officeRented": true,
+          "miningLeases": [
+            {
+              "id": "lease-1775333048917-w5e9g0",
+              "body": "Mars",
+              "leaseType": "Silicate Extraction",
+              "issuedAt": 1775333048917,
+              "cost": 25000,
+              "buildingSlots": 2,
+              "extractorIds": [
+                "ext-basic-1"
+              ]
+            }
+          ],
+          "stats": {
+            "silicateSoldOnExchange": 224
+          },
+          "tradeHistory": [
+            {
+              "id": "th-1775336564466",
+              "type": "sold-npc",
+              "item": "Silicates",
+              "quantity": 18,
+              "unitPrice": 8,
+              "total": 144,
+              "counterparty": "GEX Commodities Authority",
+              "at": 1775336564466
+            }
+          ]
         },
         "queues": {
-          "corporateRnD": [],
+          "corporateRnD": [
+            {
+              "id": "rnd-1775334673105",
+              "techId": "tt-basic-extraction",
+              "name": "Basic Extraction Analytics",
+              "effect": "+10% raw extraction throughput",
+              "durationHours": 2,
+              "startedAt": 1775334673105,
+              "costCredits": 18000
+            }
+          ],
           "ceoInsight": []
         },
         "market": {
@@ -964,11 +1045,47 @@
           "expiresAt": 1777917358568
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc1MzMwMDM1LCJleHAiOjE3Nzc5MjIwMzV9.uQW1e_lT65Uv4l9g5Kc5JfHZ2AMxqGy1nQgkwaLjdsE",
-          "expiresAt": 1777922035425
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc1MzM3MjM5LCJleHAiOjE3Nzc5MjkyMzl9.gGMroBqtIlbI8WEyARYyhYX15K8cu7i2UlivFdoObfo",
+          "expiresAt": 1777929239980
         }
       ],
       "notifications": [
+        {
+          "id": "ntf-1775334673105-nsknwhzl",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Queued",
+          "body": "Basic Extraction Analytics has been queued in corporate research.",
+          "createdAt": 1775334673105,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1775333057849-ibrzya04",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Mining Cycle Started",
+          "body": "Basic Extractor Yard #1 has begun silicate extraction operations.",
+          "createdAt": 1775333057849,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1775333052151-yjmhsqx5",
+          "accountId": "dummy",
+          "type": "infrastructure",
+          "title": "Extractor Commissioned",
+          "body": "Basic Extractor Yard is now operational and linked to your mining lease.",
+          "createdAt": 1775333052151,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1775333048918-ulcbob5x",
+          "accountId": "dummy",
+          "type": "administration",
+          "title": "Mining Lease Approved",
+          "body": "ISA Claims & Leases has approved your extraction rights application for Mars. Two building slots have been allocated to your lease.",
+          "createdAt": 1775333048918,
+          "readAt": null
+        },
         {
           "id": "ntf-1775328755471-xnuhyy20",
           "accountId": "dummy",
@@ -2277,7 +2394,9 @@
             }
           },
           "location": "Earth",
-          "offices": []
+          "offices": [],
+          "miningLeases": [],
+          "tradeHistory": []
         },
         "queues": {
           "corporateRnD": [],
@@ -3253,7 +3372,9 @@
             }
           },
           "location": "Earth",
-          "offices": []
+          "offices": [],
+          "miningLeases": [],
+          "tradeHistory": []
         },
         "queues": {
           "corporateRnD": [],
@@ -4231,7 +4352,9 @@
             }
           },
           "location": "Earth",
-          "offices": []
+          "offices": [],
+          "miningLeases": [],
+          "tradeHistory": []
         },
         "queues": {
           "corporateRnD": [],
@@ -5209,7 +5332,9 @@
             }
           },
           "location": "Earth",
-          "offices": []
+          "offices": [],
+          "miningLeases": [],
+          "tradeHistory": []
         },
         "queues": {
           "corporateRnD": [],
@@ -6187,7 +6312,9 @@
             }
           },
           "location": "Earth",
-          "offices": []
+          "offices": [],
+          "miningLeases": [],
+          "tradeHistory": []
         },
         "queues": {
           "corporateRnD": [],
@@ -7165,7 +7292,9 @@
             }
           },
           "location": "Earth",
-          "offices": []
+          "offices": [],
+          "miningLeases": [],
+          "tradeHistory": []
         },
         "queues": {
           "corporateRnD": [],
