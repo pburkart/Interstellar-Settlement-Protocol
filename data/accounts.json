@@ -525,7 +525,7 @@
             }
           },
           "finances": {
-            "credits": 2017457,
+            "credits": 2017299,
             "liabilities": 0,
             "assets": 232000,
             "dailyRevenue": 48278,
@@ -553,17 +553,17 @@
                 "tier": 1,
                 "active": true,
                 "startedAt": 1776308022874,
-                "lastTickAt": 1776374425119,
+                "lastTickAt": 1776374860813,
                 "endsAt": 1776394422874,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
                 "totalMined": 7430,
-                "totalSpent": 109509,
+                "totalSpent": 109594,
                 "lastCompletedAt": 1776306640968,
                 "leaseId": "lease-1775333048917-w5e9g0",
-                "downtimeActive": false,
-                "downtimeStartedAt": null,
-                "downtimeRecoveredAt": 1776371856372
+                "downtimeActive": true,
+                "downtimeStartedAt": 1776374865827,
+                "downtimeRecoveredAt": null
               },
               {
                 "id": "ext-basic-2",
@@ -571,17 +571,17 @@
                 "tier": 1,
                 "active": true,
                 "startedAt": 1776308668418,
-                "lastTickAt": 1776374425119,
+                "lastTickAt": 1776374795728,
                 "endsAt": 1776395068418,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
                 "totalMined": 7164,
-                "totalSpent": 101334,
+                "totalSpent": 101407,
                 "lastCompletedAt": 1776306640968,
                 "leaseId": "lease-1775333048917-w5e9g0",
-                "downtimeActive": false,
-                "downtimeStartedAt": null,
-                "downtimeRecoveredAt": 1776369319430
+                "downtimeActive": true,
+                "downtimeStartedAt": 1776374799714,
+                "downtimeRecoveredAt": null
               }
             ],
             "silicateExtractor": {
@@ -590,17 +590,17 @@
               "tier": 1,
               "active": true,
               "startedAt": 1776308022874,
-              "lastTickAt": 1776374425119,
+              "lastTickAt": 1776374860813,
               "endsAt": 1776394422874,
               "throughputPerHour": 40,
               "operationCostPerHour": 640,
               "totalMined": 7430,
-              "totalSpent": 109509,
+              "totalSpent": 109594,
               "lastCompletedAt": 1776306640968,
               "leaseId": "lease-1775333048917-w5e9g0",
-              "downtimeActive": false,
-              "downtimeStartedAt": null,
-              "downtimeRecoveredAt": 1776371856372
+              "downtimeActive": true,
+              "downtimeStartedAt": 1776374865827,
+              "downtimeRecoveredAt": null
             }
           },
           "unlocks": {
