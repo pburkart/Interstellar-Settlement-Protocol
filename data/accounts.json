@@ -3,7 +3,7 @@
     "dummy": {
       "id": "dummy",
       "email": "dummy@isp.local",
-      "walkthroughCompleted": false,
+      "walkthroughCompleted": true,
       "state": {
         "world": {
           "lawName": "Interstellar Settlement Protocol",
@@ -429,7 +429,7 @@
           "id": "corp-001",
           "ceo": "Test Director",
           "corporationName": "Protocol Sandbox Dynamics",
-          "level": 2,
+          "level": 3,
           "levelCap": 40,
           "milestonesCompleted": [
             "Hire 5 Employees",
@@ -439,7 +439,12 @@
             "Build a Basic Extractor Yard",
             "Mine 300 Silicate",
             "Reached Corporation Level 2",
-            "Sell 300 Silicate on the Galactic Exchange"
+            "Sell 300 Silicate on the Galactic Exchange",
+            "Research Basic Extraction Analytics",
+            "Reached Corporation Level 3",
+            "Build a Second Extractor Yard",
+            "Hire 10 Employees",
+            "Research Industrial Safety Protocols"
           ],
           "milestoneRoadmap": [
             "Rent an Office",
@@ -488,12 +493,17 @@
             "Research Extrasolar Expansion Protocols",
             "Reached Corporation Level 10"
           ],
-          "employeeCap": 30,
-          "employeeCount": 5,
+          "employeeCap": 45,
+          "employeeCount": 10,
           "buildingSlots": 4,
           "buildings": [
             {
               "name": "Headquarters",
+              "tier": 1,
+              "status": "Operational"
+            },
+            {
+              "name": "Basic Extractor Yard",
               "tier": 1,
               "status": "Operational"
             },
@@ -515,11 +525,11 @@
             }
           },
           "finances": {
-            "credits": 24694,
+            "credits": 2036727,
             "liabilities": 0,
-            "assets": 196000,
-            "dailyRevenue": 1180,
-            "dailyCosts": 180,
+            "assets": 232000,
+            "dailyRevenue": 46785,
+            "dailyCosts": 930,
             "liquidity": 90000,
             "liquidityCap": 90000,
             "liquidityRegenPerHour": 3600,
@@ -533,7 +543,7 @@
             "bondYieldPct": 0
           },
           "inventory": {
-            "Silicates": 109
+            "Silicates": 14
           },
           "mining": {
             "silicateExtractors": [
@@ -542,15 +552,36 @@
                 "name": "Basic Extractor Yard #1",
                 "tier": 1,
                 "active": true,
-                "startedAt": 1775333057848,
-                "lastTickAt": 1775339814397,
-                "endsAt": 1775419457848,
-                "throughputPerHour": 250,
-                "operationCostPerHour": 4000,
-                "totalMined": 433,
-                "totalSpent": 8898,
-                "lastCompletedAt": null,
-                "leaseId": "lease-1775333048917-w5e9g0"
+                "startedAt": 1776308022874,
+                "lastTickAt": 1776321705359,
+                "endsAt": 1776394422874,
+                "throughputPerHour": 40,
+                "operationCostPerHour": 640,
+                "totalMined": 6808,
+                "totalSpent": 100218,
+                "lastCompletedAt": 1776306640968,
+                "leaseId": "lease-1775333048917-w5e9g0",
+                "downtimeActive": false,
+                "downtimeStartedAt": null,
+                "downtimeRecoveredAt": 1776320918977
+              },
+              {
+                "id": "ext-basic-2",
+                "name": "Basic Extractor Yard #2",
+                "tier": 1,
+                "active": true,
+                "startedAt": 1776308668418,
+                "lastTickAt": 1776321705359,
+                "endsAt": 1776395068418,
+                "throughputPerHour": 40,
+                "operationCostPerHour": 640,
+                "totalMined": 7164,
+                "totalSpent": 100355,
+                "lastCompletedAt": 1776306640968,
+                "leaseId": "lease-1775333048917-w5e9g0",
+                "downtimeActive": false,
+                "downtimeStartedAt": null,
+                "downtimeRecoveredAt": null
               }
             ],
             "silicateExtractor": {
@@ -558,15 +589,18 @@
               "name": "Basic Extractor Yard #1",
               "tier": 1,
               "active": true,
-              "startedAt": 1775333057848,
-              "lastTickAt": 1775339814397,
-              "endsAt": 1775419457848,
-              "throughputPerHour": 250,
-              "operationCostPerHour": 4000,
-              "totalMined": 433,
-              "totalSpent": 8898,
-              "lastCompletedAt": null,
-              "leaseId": "lease-1775333048917-w5e9g0"
+              "startedAt": 1776308022874,
+              "lastTickAt": 1776321705359,
+              "endsAt": 1776394422874,
+              "throughputPerHour": 40,
+              "operationCostPerHour": 640,
+              "totalMined": 6808,
+              "totalSpent": 100218,
+              "lastCompletedAt": 1776306640968,
+              "leaseId": "lease-1775333048917-w5e9g0",
+              "downtimeActive": false,
+              "downtimeStartedAt": null,
+              "downtimeRecoveredAt": 1776320918977
             }
           },
           "unlocks": {
@@ -575,10 +609,13 @@
               "Logistics Services"
             ],
             "maxUpgradeTier": 1,
-            "maxFleetSize": 14,
+            "maxFleetSize": 22,
             "maxBasicExtractorYards": 1
           },
-          "unlockedTech": [],
+          "unlockedTech": [
+            "tt-basic-extraction",
+            "tt-industrial-safety"
+          ],
           "location": "Earth",
           "investments": [],
           "levelProgress": {
@@ -594,7 +631,7 @@
                 {
                   "id": "hire5",
                   "title": "Hire 5 Employees",
-                  "progress": 5,
+                  "progress": 10,
                   "target": 5,
                   "complete": true
                 }
@@ -620,7 +657,7 @@
                 {
                   "id": "mine300",
                   "title": "Mine 300 Silicate",
-                  "progress": 433,
+                  "progress": 13972,
                   "target": 300,
                   "complete": true
                 }
@@ -632,47 +669,47 @@
                 {
                   "id": "sell300Silicate",
                   "title": "Sell 300 Silicate on the Galactic Exchange",
-                  "progress": 324,
+                  "progress": 13958,
                   "target": 300,
                   "complete": true
                 },
                 {
                   "id": "researchBasicExtraction",
                   "title": "Research Basic Extraction Analytics",
-                  "progress": 0,
+                  "progress": 1,
                   "target": 1,
-                  "complete": false
+                  "complete": true
                 }
               ],
-              "allCompleted": false
+              "allCompleted": true
             },
             "level4": {
               "requirements": [
                 {
                   "id": "extractor2",
                   "title": "Build a Second Extractor Yard",
-                  "progress": 1,
+                  "progress": 2,
                   "target": 2,
-                  "complete": false
+                  "complete": true
                 },
                 {
                   "id": "hire10",
                   "title": "Hire 10 Employees",
-                  "progress": 5,
+                  "progress": 10,
                   "target": 10,
-                  "complete": false
+                  "complete": true
                 },
                 {
                   "id": "researchIndustrialSafety",
                   "title": "Research Industrial Safety Protocols",
-                  "progress": 0,
+                  "progress": 1,
                   "target": 1,
-                  "complete": false
+                  "complete": true
                 },
                 {
                   "id": "sell50000Silicate",
                   "title": "Sell 50,000 Silicate",
-                  "progress": 324,
+                  "progress": 13958,
                   "target": 50000,
                   "complete": false
                 }
@@ -698,14 +735,14 @@
                 {
                   "id": "extractor3",
                   "title": "Build a Third Extractor Yard",
-                  "progress": 1,
+                  "progress": 2,
                   "target": 3,
                   "complete": false
                 },
                 {
                   "id": "hire15",
                   "title": "Hire 15 Employees",
-                  "progress": 5,
+                  "progress": 10,
                   "target": 15,
                   "complete": false
                 }
@@ -724,7 +761,7 @@
                 {
                   "id": "hire25",
                   "title": "Hire 25 Employees",
-                  "progress": 5,
+                  "progress": 10,
                   "target": 25,
                   "complete": false
                 },
@@ -885,7 +922,19 @@
               "body": "Earth",
               "systemId": "sol",
               "tier": 1,
-              "rentedAt": 1775328755471
+              "rentedAt": 1775328755471,
+              "rentedUntil": 1775865600000,
+              "durationDays": 7
+            },
+            {
+              "stationId": "earth-station-prime",
+              "name": "Earth Station Prime",
+              "body": "Earth",
+              "systemId": "sol",
+              "tier": 1,
+              "rentedAt": 1776308608751,
+              "rentedUntil": 1778727808751,
+              "durationDays": 28
             }
           ],
           "officeRented": true,
@@ -898,14 +947,35 @@
               "cost": 25000,
               "buildingSlots": 2,
               "extractorIds": [
-                "ext-basic-1"
+                "ext-basic-1",
+                "ext-basic-2"
               ]
             }
           ],
           "stats": {
-            "silicateSoldOnExchange": 324
+            "silicateSoldOnExchange": 13958
           },
           "tradeHistory": [
+            {
+              "id": "th-1776308076624",
+              "type": "sold-npc",
+              "item": "Silicates",
+              "quantity": 12744,
+              "unitPrice": 24,
+              "total": 305856,
+              "counterparty": "GEX Commodities Authority",
+              "at": 1776308076624
+            },
+            {
+              "id": "th-1775351840426",
+              "type": "sold-npc",
+              "item": "Silicates",
+              "quantity": 890,
+              "unitPrice": 8,
+              "total": 7120,
+              "counterparty": "GEX Commodities Authority",
+              "at": 1775351840426
+            },
             {
               "id": "th-1775338149494",
               "type": "sold-npc",
@@ -931,13 +1001,13 @@
         "queues": {
           "corporateRnD": [
             {
-              "id": "rnd-1775334673105",
-              "techId": "tt-basic-extraction",
-              "name": "Basic Extraction Analytics",
-              "effect": "+10% raw extraction throughput",
-              "durationHours": 2,
-              "startedAt": 1775334673105,
-              "costCredits": 18000
+              "id": "rnd-1776308056790",
+              "techId": "tt-supply-forecast",
+              "name": "Supply Forecast Engine",
+              "effect": "+6% logistics efficiency",
+              "durationHours": 4,
+              "startedAt": 1776308056790,
+              "costCredits": 3000
             }
           ],
           "ceoInsight": []
@@ -1045,42 +1115,180 @@
         "playerProfile": {
           "isNewPlayer": true,
           "registeredAt": 1775324663311,
-          "walkthroughCompleted": false
+          "walkthroughCompleted": true
         }
       },
       "passwordHash": "$2b$10$yrsvz070XR6YaohmV0pWmeW8tw7SMR4ZLfGEtm3rppOLNmQMz4eWu",
       "createdAt": 1775098865694,
       "refreshTokens": [
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc1MzI1MzU4LCJleHAiOjE3Nzc5MTczNTh9.9PrXEr22IGx9RHxgpsjDdcNrICLnKHverRyIBboedcU",
-          "expiresAt": 1777917358568
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE1OTI3LCJleHAiOjE3Nzg5MDc5Mjd9.lZOMExpOwaVHUbm9rQ2e_ALZeW2N3vs3B0rOM4Vih3M",
+          "expiresAt": 1778907927334
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc1MzM3MjM5LCJleHAiOjE3Nzc5MjkyMzl9.gGMroBqtIlbI8WEyARYyhYX15K8cu7i2UlivFdoObfo",
-          "expiresAt": 1777929239980
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE3NjQ3LCJleHAiOjE3Nzg5MDk2NDd9.VQazbqHB28qWD-9SGx2pjwwwe43rgK7bg-arTl1zB-A",
+          "expiresAt": 1778909647736
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc1MzM4NjA3LCJleHAiOjE3Nzc5MzA2MDd9.bY41DMAoAZaSLAFCnlDRBerlZARFjIQle1QYg3aonek",
-          "expiresAt": 1777930607376
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE4MTM3LCJleHAiOjE3Nzg5MTAxMzd9.A-_4tTlDgp5BeeiqLtvbNm49PWJKaydzOMQWS9uENNk",
+          "expiresAt": 1778910137175
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc1MzM4NjE4LCJleHAiOjE3Nzc5MzA2MTh9.y0AWBUfrmmmN1AiOE-IKzc-NF0Q-t29fNZRXNW07E3M",
-          "expiresAt": 1777930618157
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE5MDY1LCJleHAiOjE3Nzg5MTEwNjV9.JVWcQ_kcrfXLb1UvpymJC068QxYOZzpIlLW66baMv9M",
+          "expiresAt": 1778911065191
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc1MzM4NjcxLCJleHAiOjE3Nzc5MzA2NzF9.mNYP_f_cdNItTMViwam2XcK-YIuu-akN6zasGPzRl1g",
-          "expiresAt": 1777930671675
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE5MzIzLCJleHAiOjE3Nzg5MTEzMjN9.ydzua1vmatyz49mwAd3UELQTrS0ranUqjKaLklUvGN4",
+          "expiresAt": 1778911323303
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc1MzM4NzM4LCJleHAiOjE3Nzc5MzA3Mzh9.PZstwzWHO-Qi5La7IiL0H0U89pycFLCm7zEBJrQKXc0",
-          "expiresAt": 1777930738801
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE5MzM0LCJleHAiOjE3Nzg5MTEzMzR9.V42ppTfLSRJnEt3JKoTqrh-1zOdXqLHaMhJqzAwzxwo",
+          "expiresAt": 1778911334883
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc1MzM4OTg4LCJleHAiOjE3Nzc5MzA5ODh9.JBEZaezPcGt9LXwxFfOWzKGd12pYtmKxOVAnb2JNXK8",
-          "expiresAt": 1777930988578
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE5NDEwLCJleHAiOjE3Nzg5MTE0MTB9.gBx_eBtdFTMEhwgskgzf5-x1wIdiaAjwcGF7R745sys",
+          "expiresAt": 1778911410894
+        },
+        {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE5NDEzLCJleHAiOjE3Nzg5MTE0MTN9.nd5RdOADMevUtQp-Dfep-lsMwCCTMItAiAFL4I9_UKs",
+          "expiresAt": 1778911413005
+        },
+        {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE5NDIzLCJleHAiOjE3Nzg5MTE0MjN9.pRx2oTlia6vC4Y18L0Q4uokJSKT1-cfshp1WjF77Sro",
+          "expiresAt": 1778911423599
+        },
+        {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzIwMjMxLCJleHAiOjE3Nzg5MTIyMzF9.y46D3YCfuLgtKoRgEqFfp6_4mtyjwmvWGOTPjkeN0j4",
+          "expiresAt": 1778912231855
         }
       ],
       "notifications": [
+        {
+          "id": "ntf-1776320291231-0j35otbk",
+          "accountId": "dummy",
+          "type": "onboarding",
+          "title": "Walkthrough Completed",
+          "body": "Onboarding has been marked complete for this profile.",
+          "createdAt": 1776320291231,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776320270040-t37xtbhg",
+          "accountId": "dummy",
+          "type": "onboarding",
+          "title": "Walkthrough Reset",
+          "body": "Onboarding flow has been reset and can be replayed.",
+          "createdAt": 1776320270040,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776309696295-j345pqwi",
+          "accountId": "dummy",
+          "type": "onboarding",
+          "title": "Walkthrough Completed",
+          "body": "Onboarding has been marked complete for this profile.",
+          "createdAt": 1776309696295,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776309680230-9rm20vfb",
+          "accountId": "dummy",
+          "type": "onboarding",
+          "title": "Walkthrough Reset",
+          "body": "Onboarding flow has been reset and can be replayed.",
+          "createdAt": 1776309680230,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776308668418-kkc41x6i",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Mining Cycle Started",
+          "body": "Basic Extractor Yard #2 has begun silicate extraction operations.",
+          "createdAt": 1776308668418,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776308608751-tj5767v6",
+          "accountId": "dummy",
+          "type": "administration",
+          "title": "Office Lease Confirmed",
+          "body": "Your corporation now maintains a registered operational office at Earth Station Prime.",
+          "createdAt": 1776308608751,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776308056790-0zvd8g8l",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Queued",
+          "body": "Supply Forecast Engine has been queued in corporate research.",
+          "createdAt": 1776308056790,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776308022874-0ujfgmit",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Mining Cycle Started",
+          "body": "Basic Extractor Yard #1 has begun silicate extraction operations.",
+          "createdAt": 1776308022874,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776306640969-u9dt17qf",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Complete",
+          "body": "Industrial Safety Protocols has been completed and applied to your corporation.",
+          "createdAt": 1776306640969,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1775352050077-0nboq2xx",
+          "accountId": "dummy",
+          "type": "workforce",
+          "title": "Hiring Order Confirmed",
+          "body": "5 employee(s) were added to your workforce.",
+          "createdAt": 1775352050077,
+          "readAt": 1775352091121
+        },
+        {
+          "id": "ntf-1775352030300-hs74om55",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Mining Cycle Started",
+          "body": "Basic Extractor Yard #2 has begun silicate extraction operations.",
+          "createdAt": 1775352030300,
+          "readAt": 1775352091121
+        },
+        {
+          "id": "ntf-1775352025044-cz2cc2bh",
+          "accountId": "dummy",
+          "type": "infrastructure",
+          "title": "Extractor Commissioned",
+          "body": "Basic Extractor Yard is now operational and linked to your mining lease.",
+          "createdAt": 1775352025044,
+          "readAt": 1775352091121
+        },
+        {
+          "id": "ntf-1775351771418-sjvyrsug",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Queued",
+          "body": "Industrial Safety Protocols has been queued in corporate research.",
+          "createdAt": 1775351771418,
+          "readAt": 1775352091121
+        },
+        {
+          "id": "ntf-1775351381958-y55oatil",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Complete",
+          "body": "Basic Extraction Analytics has been completed and applied to your corporation.",
+          "createdAt": 1775351381958,
+          "readAt": 1775352091121
+        },
         {
           "id": "ntf-1775334673105-nsknwhzl",
           "accountId": "dummy",
