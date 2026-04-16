@@ -525,7 +525,7 @@
             }
           },
           "finances": {
-            "credits": 2016178,
+            "credits": 2004324,
             "liabilities": 0,
             "assets": 232000,
             "dailyRevenue": 48278,
@@ -540,7 +540,8 @@
               "Barnard's Star": 1.1
             },
             "taxRatePct": 14,
-            "bondYieldPct": 0
+            "bondYieldPct": 0,
+            "exchangeSalesTaxPct": 8
           },
           "inventory": {
             "Silicates": 636
@@ -553,12 +554,12 @@
                 "tier": 1,
                 "active": true,
                 "startedAt": 1776308022874,
-                "lastTickAt": 1776378626029,
+                "lastTickAt": 1776383359927,
                 "endsAt": 1776394422874,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
                 "totalMined": 7430,
-                "totalSpent": 110148,
+                "totalSpent": 111075,
                 "lastCompletedAt": 1776306640968,
                 "leaseId": "lease-1775333048917-w5e9g0",
                 "downtimeActive": false,
@@ -571,12 +572,12 @@
                 "tier": 1,
                 "active": true,
                 "startedAt": 1776308668418,
-                "lastTickAt": 1776378626029,
+                "lastTickAt": 1776383359927,
                 "endsAt": 1776395068418,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
                 "totalMined": 7164,
-                "totalSpent": 101974,
+                "totalSpent": 102901,
                 "lastCompletedAt": 1776306640968,
                 "leaseId": "lease-1775333048917-w5e9g0",
                 "downtimeActive": false,
@@ -590,12 +591,12 @@
               "tier": 1,
               "active": true,
               "startedAt": 1776308022874,
-              "lastTickAt": 1776378626029,
+              "lastTickAt": 1776383359927,
               "endsAt": 1776394422874,
               "throughputPerHour": 40,
               "operationCostPerHour": 640,
               "totalMined": 7430,
-              "totalSpent": 110148,
+              "totalSpent": 111075,
               "lastCompletedAt": 1776306640968,
               "leaseId": "lease-1775333048917-w5e9g0",
               "downtimeActive": false,
@@ -997,11 +998,22 @@
               "counterparty": "GEX Commodities Authority",
               "at": 1775336564466
             }
-          ]
+          ],
+          "completedInsights": []
         },
         "queues": {
           "corporateRnD": [],
-          "ceoInsight": []
+          "ceoInsight": [
+            {
+              "id": "ceo-1776383300185",
+              "programId": "ceo-negotiation-fundamentals",
+              "name": "Negotiation Fundamentals",
+              "effect": "-2% GEX sales tax",
+              "durationHours": 4,
+              "startedAt": 1776383300185,
+              "costCredits": 10000
+            }
+          ]
         },
         "market": {
           "orderBook": [
@@ -1154,6 +1166,15 @@
         }
       ],
       "notifications": [
+        {
+          "id": "ntf-1776383300185-dodry2m5",
+          "accountId": "dummy",
+          "type": "insight",
+          "title": "CEO Insight Queued",
+          "body": "Negotiation Fundamentals has been enrolled in the CEO Insight Program.",
+          "createdAt": 1776383300185,
+          "readAt": null
+        },
         {
           "id": "ntf-1776368780898-ih7jok8q",
           "accountId": "dummy",
@@ -2323,7 +2344,8 @@
               "Barnard's Star": 1.1
             },
             "taxRatePct": 14,
-            "bondYieldPct": 0
+            "bondYieldPct": 0,
+            "exchangeSalesTaxPct": 8
           },
           "inventory": {
             "Silicates": 7
@@ -2653,7 +2675,8 @@
           "location": "Earth",
           "offices": [],
           "miningLeases": [],
-          "tradeHistory": []
+          "tradeHistory": [],
+          "completedInsights": []
         },
         "queues": {
           "corporateRnD": [],
@@ -3303,7 +3326,8 @@
               "Barnard's Star": 1.1
             },
             "taxRatePct": 14,
-            "bondYieldPct": 0
+            "bondYieldPct": 0,
+            "exchangeSalesTaxPct": 8
           },
           "inventory": {},
           "mining": {
@@ -3631,7 +3655,8 @@
           "location": "Earth",
           "offices": [],
           "miningLeases": [],
-          "tradeHistory": []
+          "tradeHistory": [],
+          "completedInsights": []
         },
         "queues": {
           "corporateRnD": [],
@@ -4281,7 +4306,8 @@
               "Barnard's Star": 1.1
             },
             "taxRatePct": 14,
-            "bondYieldPct": 0
+            "bondYieldPct": 0,
+            "exchangeSalesTaxPct": 8
           },
           "inventory": {
             "Silicates": 3
@@ -4611,7 +4637,8 @@
           "location": "Earth",
           "offices": [],
           "miningLeases": [],
-          "tradeHistory": []
+          "tradeHistory": [],
+          "completedInsights": []
         },
         "queues": {
           "corporateRnD": [],
@@ -5261,7 +5288,8 @@
               "Barnard's Star": 1.1
             },
             "taxRatePct": 14,
-            "bondYieldPct": 0
+            "bondYieldPct": 0,
+            "exchangeSalesTaxPct": 8
           },
           "inventory": {
             "Silicates": 2
@@ -5591,7 +5619,8 @@
           "location": "Earth",
           "offices": [],
           "miningLeases": [],
-          "tradeHistory": []
+          "tradeHistory": [],
+          "completedInsights": []
         },
         "queues": {
           "corporateRnD": [],
@@ -6241,7 +6270,8 @@
               "Barnard's Star": 1.1
             },
             "taxRatePct": 14,
-            "bondYieldPct": 0
+            "bondYieldPct": 0,
+            "exchangeSalesTaxPct": 8
           },
           "inventory": {
             "Silicates": 2
@@ -6571,7 +6601,8 @@
           "location": "Earth",
           "offices": [],
           "miningLeases": [],
-          "tradeHistory": []
+          "tradeHistory": [],
+          "completedInsights": []
         },
         "queues": {
           "corporateRnD": [],
@@ -7221,7 +7252,8 @@
               "Barnard's Star": 1.1
             },
             "taxRatePct": 14,
-            "bondYieldPct": 0
+            "bondYieldPct": 0,
+            "exchangeSalesTaxPct": 8
           },
           "inventory": {
             "Silicates": 3
@@ -7551,7 +7583,8 @@
           "location": "Earth",
           "offices": [],
           "miningLeases": [],
-          "tradeHistory": []
+          "tradeHistory": [],
+          "completedInsights": []
         },
         "queues": {
           "corporateRnD": [],
@@ -8263,7 +8296,8 @@
               "Barnard's Star": 1.1
             },
             "taxRatePct": 14,
-            "bondYieldPct": 0
+            "bondYieldPct": 0,
+            "exchangeSalesTaxPct": 8
           },
           "inventory": {},
           "mining": {
@@ -8603,7 +8637,8 @@
               "allCompleted": false
             }
           },
-          "officeRented": true
+          "officeRented": true,
+          "completedInsights": []
         },
         "queues": {
           "corporateRnD": [],
@@ -9314,7 +9349,8 @@
               "Barnard's Star": 1.1
             },
             "taxRatePct": 14,
-            "bondYieldPct": 0
+            "bondYieldPct": 0,
+            "exchangeSalesTaxPct": 8
           },
           "inventory": {},
           "mining": {
@@ -9642,7 +9678,8 @@
               ],
               "allCompleted": false
             }
-          }
+          },
+          "completedInsights": []
         },
         "queues": {
           "corporateRnD": [],
