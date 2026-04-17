@@ -1004,7 +1004,9 @@
           "completedInsights": [
             "ceo-negotiation-fundamentals"
           ],
-          "refineries": []
+          "refineries": [],
+          "currentStationId": "earth-station-prime",
+          "travel": null
         },
         "queues": {
           "corporateRnD": [
@@ -1149,22 +1151,6 @@
       "createdAt": 1775098865694,
       "refreshTokens": [
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE4MTM3LCJleHAiOjE3Nzg5MTAxMzd9.A-_4tTlDgp5BeeiqLtvbNm49PWJKaydzOMQWS9uENNk",
-          "expiresAt": 1778910137175
-        },
-        {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE5MDY1LCJleHAiOjE3Nzg5MTEwNjV9.JVWcQ_kcrfXLb1UvpymJC068QxYOZzpIlLW66baMv9M",
-          "expiresAt": 1778911065191
-        },
-        {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE5MzIzLCJleHAiOjE3Nzg5MTEzMjN9.ydzua1vmatyz49mwAd3UELQTrS0ranUqjKaLklUvGN4",
-          "expiresAt": 1778911323303
-        },
-        {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE5MzM0LCJleHAiOjE3Nzg5MTEzMzR9.V42ppTfLSRJnEt3JKoTqrh-1zOdXqLHaMhJqzAwzxwo",
-          "expiresAt": 1778911334883
-        },
-        {
           "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE5NDEwLCJleHAiOjE3Nzg5MTE0MTB9.gBx_eBtdFTMEhwgskgzf5-x1wIdiaAjwcGF7R745sys",
           "expiresAt": 1778911410894
         },
@@ -1187,6 +1173,22 @@
         {
           "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDUxNDgxLCJleHAiOjE3NzkwNDM0ODF9.VrU8oKBkFwVI-MtYUbXecEmcdcQUR1yiZp3-WliapXQ",
           "expiresAt": 1779043481739
+        },
+        {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDUzODU5LCJleHAiOjE3NzkwNDU4NTl9.1s9sn2B4fRPtKiv1vJyoJCmwPoBA-fzNXK8COaLb9KA",
+          "expiresAt": 1779045859804
+        },
+        {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDU2MTkwLCJleHAiOjE3NzkwNDgxOTB9.pKIFl32dG8cGFIW3xera2ZZR4I-H3zZkEkz9770lZN0",
+          "expiresAt": 1779048190735
+        },
+        {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDU2MTk2LCJleHAiOjE3NzkwNDgxOTZ9.3ZPSqAhs5N_ZwikEris0KeUa8Cp3tmq0TvCkVf1LtDU",
+          "expiresAt": 1779048196415
+        },
+        {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDU2MjI3LCJleHAiOjE3NzkwNDgyMjd9.0vTnw7jdNKPEbh_CmRwRQpFlWfjc0l0sczyFlCGGAis",
+          "expiresAt": 1779048227935
         }
       ],
       "notifications": [
@@ -2755,7 +2757,9 @@
           "miningLeases": [],
           "tradeHistory": [],
           "completedInsights": [],
-          "refineries": []
+          "refineries": [],
+          "currentStationId": "earth-station-prime",
+          "travel": null
         },
         "queues": {
           "corporateRnD": [],
@@ -3736,7 +3740,9 @@
           "miningLeases": [],
           "tradeHistory": [],
           "completedInsights": [],
-          "refineries": []
+          "refineries": [],
+          "currentStationId": "earth-station-prime",
+          "travel": null
         },
         "queues": {
           "corporateRnD": [],
@@ -4719,7 +4725,9 @@
           "miningLeases": [],
           "tradeHistory": [],
           "completedInsights": [],
-          "refineries": []
+          "refineries": [],
+          "currentStationId": "earth-station-prime",
+          "travel": null
         },
         "queues": {
           "corporateRnD": [],
@@ -5702,7 +5710,9 @@
           "miningLeases": [],
           "tradeHistory": [],
           "completedInsights": [],
-          "refineries": []
+          "refineries": [],
+          "currentStationId": "earth-station-prime",
+          "travel": null
         },
         "queues": {
           "corporateRnD": [],
@@ -6685,7 +6695,9 @@
           "miningLeases": [],
           "tradeHistory": [],
           "completedInsights": [],
-          "refineries": []
+          "refineries": [],
+          "currentStationId": "earth-station-prime",
+          "travel": null
         },
         "queues": {
           "corporateRnD": [],
@@ -7668,7 +7680,9 @@
           "miningLeases": [],
           "tradeHistory": [],
           "completedInsights": [],
-          "refineries": []
+          "refineries": [],
+          "currentStationId": "earth-station-prime",
+          "travel": null
         },
         "queues": {
           "corporateRnD": [],
@@ -8723,7 +8737,9 @@
           },
           "officeRented": true,
           "completedInsights": [],
-          "refineries": []
+          "refineries": [],
+          "currentStationId": "earth-station-prime",
+          "travel": null
         },
         "queues": {
           "corporateRnD": [],
@@ -9765,7 +9781,9 @@
             }
           },
           "completedInsights": [],
-          "refineries": []
+          "refineries": [],
+          "currentStationId": "earth-station-prime",
+          "travel": null
         },
         "queues": {
           "corporateRnD": [],
