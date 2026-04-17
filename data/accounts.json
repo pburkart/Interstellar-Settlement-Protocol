@@ -444,7 +444,8 @@
             "Reached Corporation Level 3",
             "Build a Second Extractor Yard",
             "Hire 10 Employees",
-            "Research Industrial Safety Protocols"
+            "Research Industrial Safety Protocols",
+            "Research High-Density Energy Routing"
           ],
           "milestoneRoadmap": [
             "Rent an Office",
@@ -525,10 +526,10 @@
             }
           },
           "finances": {
-            "credits": 2004324,
+            "credits": 1967725,
             "liabilities": 0,
             "assets": 232000,
-            "dailyRevenue": 48278,
+            "dailyRevenue": 48492,
             "dailyCosts": 1080,
             "liquidity": 90000,
             "liquidityCap": 90000,
@@ -541,10 +542,10 @@
             },
             "taxRatePct": 14,
             "bondYieldPct": 0,
-            "exchangeSalesTaxPct": 8
+            "exchangeSalesTaxPct": 6
           },
           "inventory": {
-            "Silicates": 636
+            "Silicates": 725
           },
           "mining": {
             "silicateExtractors": [
@@ -552,15 +553,15 @@
                 "id": "ext-basic-1",
                 "name": "Basic Extractor Yard #1",
                 "tier": 1,
-                "active": true,
+                "active": false,
                 "startedAt": 1776308022874,
-                "lastTickAt": 1776383359927,
-                "endsAt": 1776394422874,
+                "lastTickAt": 1776451421214,
+                "endsAt": 1776451421214,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
-                "totalMined": 7430,
-                "totalSpent": 111075,
-                "lastCompletedAt": 1776306640968,
+                "totalMined": 7519,
+                "totalSpent": 113026,
+                "lastCompletedAt": 1776451421214,
                 "leaseId": "lease-1775333048917-w5e9g0",
                 "downtimeActive": false,
                 "downtimeStartedAt": null,
@@ -570,34 +571,34 @@
                 "id": "ext-basic-2",
                 "name": "Basic Extractor Yard #2",
                 "tier": 1,
-                "active": true,
+                "active": false,
                 "startedAt": 1776308668418,
-                "lastTickAt": 1776383359927,
-                "endsAt": 1776395068418,
+                "lastTickAt": 1776452321703,
+                "endsAt": 1776452321703,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
                 "totalMined": 7164,
-                "totalSpent": 102901,
-                "lastCompletedAt": 1776306640968,
+                "totalSpent": 103549,
+                "lastCompletedAt": 1776452321703,
                 "leaseId": "lease-1775333048917-w5e9g0",
                 "downtimeActive": false,
                 "downtimeStartedAt": null,
-                "downtimeRecoveredAt": 1776375699955
+                "downtimeRecoveredAt": 1776452321703
               }
             ],
             "silicateExtractor": {
               "id": "ext-basic-1",
               "name": "Basic Extractor Yard #1",
               "tier": 1,
-              "active": true,
+              "active": false,
               "startedAt": 1776308022874,
-              "lastTickAt": 1776383359927,
-              "endsAt": 1776394422874,
+              "lastTickAt": 1776451421214,
+              "endsAt": 1776451421214,
               "throughputPerHour": 40,
               "operationCostPerHour": 640,
-              "totalMined": 7430,
-              "totalSpent": 111075,
-              "lastCompletedAt": 1776306640968,
+              "totalMined": 7519,
+              "totalSpent": 113026,
+              "lastCompletedAt": 1776451421214,
               "leaseId": "lease-1775333048917-w5e9g0",
               "downtimeActive": false,
               "downtimeStartedAt": null,
@@ -616,7 +617,8 @@
           "unlockedTech": [
             "tt-basic-extraction",
             "tt-industrial-safety",
-            "tt-supply-forecast"
+            "tt-supply-forecast",
+            "tt-energy-routing"
           ],
           "location": "Earth",
           "investments": [],
@@ -659,7 +661,7 @@
                 {
                   "id": "mine300",
                   "title": "Mine 300 Silicate",
-                  "progress": 14594,
+                  "progress": 14683,
                   "target": 300,
                   "complete": true
                 }
@@ -723,9 +725,9 @@
                 {
                   "id": "researchEnergyRouting",
                   "title": "Research High-Density Energy Routing",
-                  "progress": 0,
+                  "progress": 1,
                   "target": 1,
-                  "complete": false
+                  "complete": true
                 },
                 {
                   "id": "secondLease",
@@ -999,19 +1001,41 @@
               "at": 1775336564466
             }
           ],
-          "completedInsights": []
+          "completedInsights": [
+            "ceo-negotiation-fundamentals"
+          ],
+          "refineries": []
         },
         "queues": {
-          "corporateRnD": [],
+          "corporateRnD": [
+            {
+              "id": "rnd-1776451732546",
+              "techId": "tt-material-compression",
+              "name": "Material Compression I",
+              "effect": "+8% refining throughput",
+              "durationHours": 9,
+              "startedAt": 1776451732546,
+              "costCredits": 6000
+            }
+          ],
           "ceoInsight": [
             {
-              "id": "ceo-1776383300185",
+              "id": "ceo-1776451491701",
               "programId": "ceo-negotiation-fundamentals",
               "name": "Negotiation Fundamentals",
               "effect": "-2% GEX sales tax",
               "durationHours": 4,
-              "startedAt": 1776383300185,
+              "startedAt": 1776451491701,
               "costCredits": 10000
+            },
+            {
+              "id": "ceo-1776451885026",
+              "programId": "ceo-employee-motivation",
+              "name": "Employee Motivation Techniques",
+              "effect": "-10% morale decay",
+              "durationHours": 6,
+              "startedAt": 1776451885026,
+              "costCredits": 14000
             }
           ]
         },
@@ -1125,10 +1149,6 @@
       "createdAt": 1775098865694,
       "refreshTokens": [
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE3NjQ3LCJleHAiOjE3Nzg5MDk2NDd9.VQazbqHB28qWD-9SGx2pjwwwe43rgK7bg-arTl1zB-A",
-          "expiresAt": 1778909647736
-        },
-        {
           "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE4MTM3LCJleHAiOjE3Nzg5MTAxMzd9.A-_4tTlDgp5BeeiqLtvbNm49PWJKaydzOMQWS9uENNk",
           "expiresAt": 1778910137175
         },
@@ -1163,9 +1183,67 @@
         {
           "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzY4NzMyLCJleHAiOjE3Nzg5NjA3MzJ9.vfJZ6qWfqUWnrGTEWeuMTBkYYUdnMLNrbGjtKx4d_JQ",
           "expiresAt": 1778960732167
+        },
+        {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDUxNDgxLCJleHAiOjE3NzkwNDM0ODF9.VrU8oKBkFwVI-MtYUbXecEmcdcQUR1yiZp3-WliapXQ",
+          "expiresAt": 1779043481739
         }
       ],
       "notifications": [
+        {
+          "id": "ntf-1776451885026-37w3oq1k",
+          "accountId": "dummy",
+          "type": "insight",
+          "title": "CEO Insight Queued",
+          "body": "Employee Motivation Techniques has been enrolled in the CEO Insight Program.",
+          "createdAt": 1776451885026,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776451732547-aj8z9mou",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Queued",
+          "body": "Material Compression I has been queued in corporate research.",
+          "createdAt": 1776451732547,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776451491701-5uh9zwfe",
+          "accountId": "dummy",
+          "type": "insight",
+          "title": "CEO Insight Queued",
+          "body": "Negotiation Fundamentals has been enrolled in the CEO Insight Program.",
+          "createdAt": 1776451491701,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776451446223-wtua8hl3",
+          "accountId": "dummy",
+          "type": "insight",
+          "title": "CEO Insight Complete",
+          "body": "Negotiation Fundamentals has been completed.",
+          "createdAt": 1776451446223,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776451446220-erqslomk",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Complete",
+          "body": "High-Density Energy Routing has been completed and applied to your corporation.",
+          "createdAt": 1776451446220,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776383455009-daelf5b7",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Queued",
+          "body": "High-Density Energy Routing has been queued in corporate research.",
+          "createdAt": 1776383455009,
+          "readAt": null
+        },
         {
           "id": "ntf-1776383300185-dodry2m5",
           "accountId": "dummy",
@@ -2676,7 +2754,8 @@
           "offices": [],
           "miningLeases": [],
           "tradeHistory": [],
-          "completedInsights": []
+          "completedInsights": [],
+          "refineries": []
         },
         "queues": {
           "corporateRnD": [],
@@ -3656,7 +3735,8 @@
           "offices": [],
           "miningLeases": [],
           "tradeHistory": [],
-          "completedInsights": []
+          "completedInsights": [],
+          "refineries": []
         },
         "queues": {
           "corporateRnD": [],
@@ -4638,7 +4718,8 @@
           "offices": [],
           "miningLeases": [],
           "tradeHistory": [],
-          "completedInsights": []
+          "completedInsights": [],
+          "refineries": []
         },
         "queues": {
           "corporateRnD": [],
@@ -5620,7 +5701,8 @@
           "offices": [],
           "miningLeases": [],
           "tradeHistory": [],
-          "completedInsights": []
+          "completedInsights": [],
+          "refineries": []
         },
         "queues": {
           "corporateRnD": [],
@@ -6602,7 +6684,8 @@
           "offices": [],
           "miningLeases": [],
           "tradeHistory": [],
-          "completedInsights": []
+          "completedInsights": [],
+          "refineries": []
         },
         "queues": {
           "corporateRnD": [],
@@ -7584,7 +7667,8 @@
           "offices": [],
           "miningLeases": [],
           "tradeHistory": [],
-          "completedInsights": []
+          "completedInsights": [],
+          "refineries": []
         },
         "queues": {
           "corporateRnD": [],
@@ -8638,7 +8722,8 @@
             }
           },
           "officeRented": true,
-          "completedInsights": []
+          "completedInsights": [],
+          "refineries": []
         },
         "queues": {
           "corporateRnD": [],
@@ -9679,7 +9764,8 @@
               "allCompleted": false
             }
           },
-          "completedInsights": []
+          "completedInsights": [],
+          "refineries": []
         },
         "queues": {
           "corporateRnD": [],
