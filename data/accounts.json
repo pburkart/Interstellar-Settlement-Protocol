@@ -5,6 +5,7 @@
       "email": "dummy@isp.local",
       "walkthroughCompleted": true,
       "state": {
+        "ic": "Extracto",
         "world": {
           "lawName": "Interstellar Settlement Protocol",
           "lawYear": 2147,
@@ -429,7 +430,7 @@
           "id": "corp-001",
           "ceo": "Test Director",
           "corporationName": "Protocol Sandbox Dynamics",
-          "level": 3,
+          "level": 5,
           "levelCap": 40,
           "milestonesCompleted": [
             "Hire 5 Employees",
@@ -445,7 +446,12 @@
             "Build a Second Extractor Yard",
             "Hire 10 Employees",
             "Research Industrial Safety Protocols",
-            "Research High-Density Energy Routing"
+            "Research High-Density Energy Routing",
+            "Purchase a Second Mining Lease",
+            "Purchase a Mining Claim on Luna",
+            "Build a Third Extractor Yard",
+            "Hire 15 Employees",
+            "Reached Corporation Level 5"
           ],
           "milestoneRoadmap": [
             "Rent an Office",
@@ -494,12 +500,32 @@
             "Research Extrasolar Expansion Protocols",
             "Reached Corporation Level 10"
           ],
-          "employeeCap": 45,
-          "employeeCount": 11,
-          "buildingSlots": 4,
+          "employeeCap": 80,
+          "employeeCount": 15,
+          "buildingSlots": 8,
           "buildings": [
             {
               "name": "Headquarters",
+              "tier": 1,
+              "status": "Operational"
+            },
+            {
+              "name": "Basic Extractor Yard",
+              "tier": 1,
+              "status": "Operational"
+            },
+            {
+              "name": "Basic Extractor Yard",
+              "tier": 1,
+              "status": "Operational"
+            },
+            {
+              "name": "Basic Extractor Yard",
+              "tier": 1,
+              "status": "Operational"
+            },
+            {
+              "name": "Basic Extractor Yard",
               "tier": 1,
               "status": "Operational"
             },
@@ -526,11 +552,11 @@
             }
           },
           "finances": {
-            "credits": 1967725,
+            "credits": 1714653,
             "liabilities": 0,
-            "assets": 232000,
-            "dailyRevenue": 48492,
-            "dailyCosts": 1080,
+            "assets": 376000,
+            "dailyRevenue": 48624,
+            "dailyCosts": 1680,
             "liquidity": 90000,
             "liquidityCap": 90000,
             "liquidityRegenPerHour": 3600,
@@ -545,7 +571,15 @@
             "exchangeSalesTaxPct": 6
           },
           "inventory": {
-            "Silicates": 725
+            "earth-station-prime": {
+              "Silicates": 743
+            },
+            "mars-orbital-dock": {
+              "Silicates": 18
+            },
+            "luna-gateway": {
+              "Silicates": 18
+            }
           },
           "mining": {
             "silicateExtractors": [
@@ -553,14 +587,14 @@
                 "id": "ext-basic-1",
                 "name": "Basic Extractor Yard #1",
                 "tier": 1,
-                "active": false,
-                "startedAt": 1776308022874,
-                "lastTickAt": 1776451421214,
-                "endsAt": 1776451421214,
+                "active": true,
+                "startedAt": 1776461578695,
+                "lastTickAt": 1776463526504,
+                "endsAt": 1776547978695,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
-                "totalMined": 7519,
-                "totalSpent": 113026,
+                "totalMined": 7528,
+                "totalSpent": 113893,
                 "lastCompletedAt": 1776451421214,
                 "leaseId": "lease-1775333048917-w5e9g0",
                 "downtimeActive": false,
@@ -571,33 +605,105 @@
                 "id": "ext-basic-2",
                 "name": "Basic Extractor Yard #2",
                 "tier": 1,
-                "active": false,
-                "startedAt": 1776308668418,
-                "lastTickAt": 1776452321703,
-                "endsAt": 1776452321703,
+                "active": true,
+                "startedAt": 1776461579226,
+                "lastTickAt": 1776463526504,
+                "endsAt": 1776547979226,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
-                "totalMined": 7164,
-                "totalSpent": 103549,
+                "totalMined": 7173,
+                "totalSpent": 104416,
                 "lastCompletedAt": 1776452321703,
                 "leaseId": "lease-1775333048917-w5e9g0",
                 "downtimeActive": false,
                 "downtimeStartedAt": null,
                 "downtimeRecoveredAt": 1776452321703
+              },
+              {
+                "id": "ext-basic-3",
+                "name": "Basic Extractor Yard #3",
+                "tier": 1,
+                "active": true,
+                "startedAt": 1776458796078,
+                "lastTickAt": 1776463526504,
+                "endsAt": 1776545196078,
+                "throughputPerHour": 40,
+                "operationCostPerHour": 640,
+                "totalMined": 9,
+                "totalSpent": 1405,
+                "lastCompletedAt": null,
+                "leaseId": "lease-1776458790965-rvyp9b",
+                "downtimeActive": false,
+                "downtimeStartedAt": null,
+                "downtimeRecoveredAt": null
+              },
+              {
+                "id": "ext-basic-4",
+                "name": "Basic Extractor Yard #4",
+                "tier": 1,
+                "active": true,
+                "startedAt": 1776458795656,
+                "lastTickAt": 1776463526504,
+                "endsAt": 1776545195656,
+                "throughputPerHour": 40,
+                "operationCostPerHour": 640,
+                "totalMined": 9,
+                "totalSpent": 1405,
+                "lastCompletedAt": null,
+                "leaseId": "lease-1776458790965-rvyp9b",
+                "downtimeActive": false,
+                "downtimeStartedAt": null,
+                "downtimeRecoveredAt": null
+              },
+              {
+                "id": "ext-basic-5",
+                "name": "Basic Extractor Yard #5",
+                "tier": 1,
+                "active": true,
+                "startedAt": 1776459531126,
+                "lastTickAt": 1776463526504,
+                "endsAt": 1776545931126,
+                "throughputPerHour": 40,
+                "operationCostPerHour": 640,
+                "totalMined": 9,
+                "totalSpent": 1264,
+                "lastCompletedAt": null,
+                "leaseId": "lease-1776459526677-ec8dsj",
+                "downtimeActive": false,
+                "downtimeStartedAt": null,
+                "downtimeRecoveredAt": null
+              },
+              {
+                "id": "ext-basic-6",
+                "name": "Basic Extractor Yard #6",
+                "tier": 1,
+                "active": true,
+                "startedAt": 1776459531616,
+                "lastTickAt": 1776463526504,
+                "endsAt": 1776545931616,
+                "throughputPerHour": 40,
+                "operationCostPerHour": 640,
+                "totalMined": 9,
+                "totalSpent": 1264,
+                "lastCompletedAt": null,
+                "leaseId": "lease-1776459526677-ec8dsj",
+                "downtimeActive": false,
+                "downtimeStartedAt": null,
+                "downtimeRecoveredAt": null
               }
             ],
             "silicateExtractor": {
               "id": "ext-basic-1",
               "name": "Basic Extractor Yard #1",
               "tier": 1,
-              "active": false,
-              "startedAt": 1776308022874,
-              "lastTickAt": 1776451421214,
-              "endsAt": 1776451421214,
+              "active": true,
+              "startedAt": 1776461578695,
+              "lastTickAt": 1776463526504,
+              "endsAt": 1776547978695,
               "throughputPerHour": 40,
               "operationCostPerHour": 640,
-              "totalMined": 7519,
-              "totalSpent": 113026,
+              "totalMined": 7528,
+              "totalSpent": 113893,
               "lastCompletedAt": 1776451421214,
               "leaseId": "lease-1775333048917-w5e9g0",
               "downtimeActive": false,
@@ -608,10 +714,11 @@
           "unlocks": {
             "marketSectors": [
               "Raw Materials",
-              "Logistics Services"
+              "Logistics Services",
+              "Industrial Goods"
             ],
             "maxUpgradeTier": 1,
-            "maxFleetSize": 22,
+            "maxFleetSize": 40,
             "maxBasicExtractorYards": 1
           },
           "unlockedTech": [
@@ -620,7 +727,7 @@
             "tt-supply-forecast",
             "tt-energy-routing"
           ],
-          "location": "Earth",
+          "location": "Mars",
           "investments": [],
           "levelProgress": {
             "level1": {
@@ -635,7 +742,7 @@
                 {
                   "id": "hire5",
                   "title": "Hire 5 Employees",
-                  "progress": 11,
+                  "progress": 15,
                   "target": 5,
                   "complete": true
                 }
@@ -661,7 +768,7 @@
                 {
                   "id": "mine300",
                   "title": "Mine 300 Silicate",
-                  "progress": 14683,
+                  "progress": 14737,
                   "target": 300,
                   "complete": true
                 }
@@ -673,9 +780,9 @@
                 {
                   "id": "sell300Silicate",
                   "title": "Sell 300 Silicate on the Galactic Exchange",
-                  "progress": 13958,
+                  "progress": 0,
                   "target": 300,
-                  "complete": true
+                  "complete": false
                 },
                 {
                   "id": "researchBasicExtraction",
@@ -685,21 +792,21 @@
                   "complete": true
                 }
               ],
-              "allCompleted": true
+              "allCompleted": false
             },
             "level4": {
               "requirements": [
                 {
                   "id": "extractor2",
                   "title": "Build a Second Extractor Yard",
-                  "progress": 2,
+                  "progress": 6,
                   "target": 2,
                   "complete": true
                 },
                 {
                   "id": "hire10",
                   "title": "Hire 10 Employees",
-                  "progress": 11,
+                  "progress": 15,
                   "target": 10,
                   "complete": true
                 },
@@ -713,7 +820,7 @@
                 {
                   "id": "sell50000Silicate",
                   "title": "Sell 50,000 Silicate",
-                  "progress": 13958,
+                  "progress": 0,
                   "target": 50000,
                   "complete": false
                 }
@@ -732,26 +839,26 @@
                 {
                   "id": "secondLease",
                   "title": "Purchase a Second Mining Lease",
-                  "progress": 1,
+                  "progress": 3,
                   "target": 2,
-                  "complete": false
+                  "complete": true
                 },
                 {
                   "id": "extractor3",
                   "title": "Build a Third Extractor Yard",
-                  "progress": 2,
+                  "progress": 6,
                   "target": 3,
-                  "complete": false
+                  "complete": true
                 },
                 {
                   "id": "hire15",
                   "title": "Hire 15 Employees",
-                  "progress": 11,
+                  "progress": 15,
                   "target": 15,
-                  "complete": false
+                  "complete": true
                 }
               ],
-              "allCompleted": false
+              "allCompleted": true
             },
             "level6": {
               "requirements": [
@@ -765,7 +872,7 @@
                 {
                   "id": "hire25",
                   "title": "Hire 25 Employees",
-                  "progress": 11,
+                  "progress": 15,
                   "target": 25,
                   "complete": false
                 },
@@ -829,9 +936,9 @@
                 {
                   "id": "lunaLease",
                   "title": "Purchase a Mining Claim on Luna",
-                  "progress": 0,
+                  "progress": 1,
                   "target": 1,
-                  "complete": false
+                  "complete": true
                 },
                 {
                   "id": "cryoExtractorArray",
@@ -954,11 +1061,32 @@
                 "ext-basic-1",
                 "ext-basic-2"
               ]
+            },
+            {
+              "id": "lease-1776458790965-rvyp9b",
+              "body": "Luna",
+              "leaseType": "Silicate Extraction",
+              "issuedAt": 1776458790965,
+              "cost": 30000,
+              "buildingSlots": 2,
+              "extractorIds": [
+                "ext-basic-3",
+                "ext-basic-4"
+              ]
+            },
+            {
+              "id": "lease-1776459526677-ec8dsj",
+              "body": "Earth",
+              "leaseType": "Silicate Extraction",
+              "issuedAt": 1776459526677,
+              "cost": 20000,
+              "buildingSlots": 2,
+              "extractorIds": [
+                "ext-basic-5",
+                "ext-basic-6"
+              ]
             }
           ],
-          "stats": {
-            "silicateSoldOnExchange": 13958
-          },
           "tradeHistory": [
             {
               "id": "th-1776308076624",
@@ -1005,7 +1133,7 @@
             "ceo-negotiation-fundamentals"
           ],
           "refineries": [],
-          "currentStationId": "earth-station-prime",
+          "currentStationId": "mars-orbital-dock",
           "travel": null
         },
         "queues": {
@@ -1187,11 +1315,236 @@
           "expiresAt": 1779048196415
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDU2MjI3LCJleHAiOjE3NzkwNDgyMjd9.0vTnw7jdNKPEbh_CmRwRQpFlWfjc0l0sczyFlCGGAis",
-          "expiresAt": 1779048227935
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDYzNDY4LCJleHAiOjE3NzkwNTU0Njh9.R8Ki7ItPFNTUtOr53crwvA0vX8nF5MTggBtsuw1RuVA",
+          "expiresAt": 1779055468008
         }
       ],
       "notifications": [
+        {
+          "id": "ntf-1776463301141-q3s7f4b4",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Docking Complete",
+          "body": "Your ship has arrived at Mars Orbital Dock (Mars, SOL).",
+          "createdAt": 1776463301141,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776463236322-ocsan8dn",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Undocking — Course Set",
+          "body": "Undocking and setting course for Mars Orbital Dock (Mars, SOL). Estimated arrival in 1 minutes.",
+          "createdAt": 1776463236322,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776461697115-jmi8efa6",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Docking Complete",
+          "body": "Your ship has arrived at Earth Station Prime (Earth, SOL).",
+          "createdAt": 1776461697115,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776461636785-dxopdcih",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Undocking — Course Set",
+          "body": "Undocking and setting course for Earth Station Prime (Earth, SOL). Estimated arrival in 1 minutes.",
+          "createdAt": 1776461636785,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776461579226-70go443j",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Mining Cycle Started",
+          "body": "Basic Extractor Yard #2 has begun silicate extraction operations.",
+          "createdAt": 1776461579226,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776461578696-ubp6o0qb",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Mining Cycle Started",
+          "body": "Basic Extractor Yard #1 has begun silicate extraction operations.",
+          "createdAt": 1776461578696,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776461556762-cnoyqv0r",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Docking Complete",
+          "body": "Your ship has arrived at Mars Orbital Dock (Mars, SOL).",
+          "createdAt": 1776461556762,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776461495966-tv1elk9q",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Undocking — Course Set",
+          "body": "Undocking and setting course for Mars Orbital Dock (Mars, SOL). Estimated arrival in 1 minutes.",
+          "createdAt": 1776461495966,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776459531617-9fbddoe2",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Mining Cycle Started",
+          "body": "Basic Extractor Yard #6 has begun silicate extraction operations.",
+          "createdAt": 1776459531617,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776459531126-f3o6oau9",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Mining Cycle Started",
+          "body": "Basic Extractor Yard #5 has begun silicate extraction operations.",
+          "createdAt": 1776459531126,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776459530474-nkim7jlx",
+          "accountId": "dummy",
+          "type": "infrastructure",
+          "title": "Extractor Commissioned",
+          "body": "Basic Extractor Yard is now operational and linked to your mining lease.",
+          "createdAt": 1776459530474,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776459529291-a1fn501x",
+          "accountId": "dummy",
+          "type": "infrastructure",
+          "title": "Extractor Commissioned",
+          "body": "Basic Extractor Yard is now operational and linked to your mining lease.",
+          "createdAt": 1776459529291,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776459526677-w6v1hdo7",
+          "accountId": "dummy",
+          "type": "administration",
+          "title": "Mining Lease Approved",
+          "body": "ISA Claims & Leases has approved your extraction rights application for Earth. Two building slots have been allocated to your lease.",
+          "createdAt": 1776459526677,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776459522059-4oxp1jd4",
+          "accountId": "dummy",
+          "type": "workforce",
+          "title": "Hiring Order Confirmed",
+          "body": "4 employee(s) were added to your workforce.",
+          "createdAt": 1776459522059,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776459000757-l6og7e4f",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Docking Complete",
+          "body": "Your ship has arrived at Earth Station Prime (Earth, SOL).",
+          "createdAt": 1776459000757,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776458936312-fol8o5cy",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Undocking — Course Set",
+          "body": "Undocking and setting course for Earth Station Prime (Earth, SOL). Estimated arrival in 1 minutes.",
+          "createdAt": 1776458936312,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776458925584-5tmh9gjn",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Docking Complete",
+          "body": "Your ship has arrived at Mars Orbital Dock (Mars, SOL).",
+          "createdAt": 1776458925584,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776458864641-qjk5jycn",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Undocking — Course Set",
+          "body": "Undocking and setting course for Mars Orbital Dock (Mars, SOL). Estimated arrival in 1 minutes.",
+          "createdAt": 1776458864641,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776458796079-mk5iiwzn",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Mining Cycle Started",
+          "body": "Basic Extractor Yard #3 has begun silicate extraction operations.",
+          "createdAt": 1776458796079,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776458795656-l2nshwvz",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Mining Cycle Started",
+          "body": "Basic Extractor Yard #4 has begun silicate extraction operations.",
+          "createdAt": 1776458795656,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776458794840-y3ve9vmf",
+          "accountId": "dummy",
+          "type": "infrastructure",
+          "title": "Extractor Commissioned",
+          "body": "Basic Extractor Yard is now operational and linked to your mining lease.",
+          "createdAt": 1776458794840,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776458793621-tl0t2mtt",
+          "accountId": "dummy",
+          "type": "infrastructure",
+          "title": "Extractor Commissioned",
+          "body": "Basic Extractor Yard is now operational and linked to your mining lease.",
+          "createdAt": 1776458793621,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776458790966-f4cida05",
+          "accountId": "dummy",
+          "type": "administration",
+          "title": "Mining Lease Approved",
+          "body": "ISA Claims & Leases has approved your extraction rights application for Luna. Two building slots have been allocated to your lease.",
+          "createdAt": 1776458790966,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776458720099-sj59f240",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Docking Complete",
+          "body": "Your ship has arrived at Luna Gateway (Luna, SOL).",
+          "createdAt": 1776458720099,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776458659527-mwmnqktc",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Undocking — Course Set",
+          "body": "Undocking and setting course for Luna Gateway (Luna, SOL). Estimated arrival in 1 minutes.",
+          "createdAt": 1776458659527,
+          "readAt": null
+        },
         {
           "id": "ntf-1776451885026-37w3oq1k",
           "accountId": "dummy",
@@ -2428,7 +2781,9 @@
             "exchangeSalesTaxPct": 8
           },
           "inventory": {
-            "Silicates": 7
+            "earth-station-prime": {
+              "Silicates": 7
+            }
           },
           "mining": {
             "silicateExtractors": [],
@@ -4396,7 +4751,9 @@
             "exchangeSalesTaxPct": 8
           },
           "inventory": {
-            "Silicates": 3
+            "earth-station-prime": {
+              "Silicates": 3
+            }
           },
           "mining": {
             "silicateExtractors": [],
@@ -5381,7 +5738,9 @@
             "exchangeSalesTaxPct": 8
           },
           "inventory": {
-            "Silicates": 2
+            "earth-station-prime": {
+              "Silicates": 2
+            }
           },
           "mining": {
             "silicateExtractors": [],
@@ -6366,7 +6725,9 @@
             "exchangeSalesTaxPct": 8
           },
           "inventory": {
-            "Silicates": 2
+            "earth-station-prime": {
+              "Silicates": 2
+            }
           },
           "mining": {
             "silicateExtractors": [],
@@ -7351,7 +7712,9 @@
             "exchangeSalesTaxPct": 8
           },
           "inventory": {
-            "Silicates": 3
+            "earth-station-prime": {
+              "Silicates": 3
+            }
           },
           "mining": {
             "silicateExtractors": [],
