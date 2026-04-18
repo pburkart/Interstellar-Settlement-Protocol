@@ -552,10 +552,10 @@
             }
           },
           "finances": {
-            "credits": 1689542,
+            "credits": 1673614,
             "liabilities": 0,
             "assets": 376000,
-            "dailyRevenue": 51798,
+            "dailyRevenue": 53157,
             "dailyCosts": 1680,
             "liquidity": 90000,
             "liquidityCap": 90000,
@@ -572,10 +572,10 @@
           },
           "inventory": {
             "earth-station-prime": {
-              "Silicates": 759
+              "Silicates": 49200
             },
             "mars-orbital-dock": {
-              "Silicates": 884
+              "Silicates": 1450
             },
             "luna-gateway": {
               "Silicates": 459
@@ -587,33 +587,33 @@
                 "id": "ext-basic-1",
                 "name": "Basic Extractor Yard #1",
                 "tier": 1,
-                "active": true,
+                "active": false,
                 "startedAt": 1776461578695,
-                "lastTickAt": 1776503463664,
-                "endsAt": 1776547978695,
+                "lastTickAt": 1776548181876,
+                "endsAt": 1776548181876,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
                 "totalMined": 7961,
                 "totalSpent": 121115,
-                "lastCompletedAt": 1776451421214,
+                "lastCompletedAt": 1776548181876,
                 "leaseId": "lease-1775333048917-w5e9g0",
                 "downtimeActive": false,
                 "downtimeStartedAt": null,
-                "downtimeRecoveredAt": 1776375767130
+                "downtimeRecoveredAt": 1776548178902
               },
               {
                 "id": "ext-basic-2",
                 "name": "Basic Extractor Yard #2",
                 "tier": 1,
-                "active": true,
+                "active": false,
                 "startedAt": 1776461579226,
-                "lastTickAt": 1776503463664,
-                "endsAt": 1776547979226,
+                "lastTickAt": 1776548178902,
+                "endsAt": 1776548178902,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
-                "totalMined": 7606,
-                "totalSpent": 111638,
-                "lastCompletedAt": 1776452321703,
+                "totalMined": 8172,
+                "totalSpent": 119566,
+                "lastCompletedAt": 1776548178902,
                 "leaseId": "lease-1775333048917-w5e9g0",
                 "downtimeActive": false,
                 "downtimeStartedAt": null,
@@ -623,92 +623,92 @@
                 "id": "ext-basic-3",
                 "name": "Basic Extractor Yard #3",
                 "tier": 1,
-                "active": true,
+                "active": false,
                 "startedAt": 1776458796078,
-                "lastTickAt": 1776503463664,
-                "endsAt": 1776545196078,
+                "lastTickAt": 1776548181876,
+                "endsAt": 1776548181876,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
                 "totalMined": 442,
                 "totalSpent": 8627,
-                "lastCompletedAt": null,
+                "lastCompletedAt": 1776548181876,
                 "leaseId": "lease-1776458790965-rvyp9b",
                 "downtimeActive": false,
                 "downtimeStartedAt": null,
-                "downtimeRecoveredAt": null
+                "downtimeRecoveredAt": 1776548178902
               },
               {
                 "id": "ext-basic-4",
                 "name": "Basic Extractor Yard #4",
                 "tier": 1,
-                "active": true,
+                "active": false,
                 "startedAt": 1776458795656,
-                "lastTickAt": 1776503463664,
-                "endsAt": 1776545195656,
+                "lastTickAt": 1776548181876,
+                "endsAt": 1776548181876,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
                 "totalMined": 17,
                 "totalSpent": 2436,
-                "lastCompletedAt": null,
+                "lastCompletedAt": 1776548181876,
                 "leaseId": "lease-1776458790965-rvyp9b",
                 "downtimeActive": false,
                 "downtimeStartedAt": null,
-                "downtimeRecoveredAt": 1776500445329
+                "downtimeRecoveredAt": 1776548178902
               },
               {
                 "id": "ext-basic-5",
                 "name": "Basic Extractor Yard #5",
                 "tier": 1,
-                "active": true,
+                "active": false,
                 "startedAt": 1776459531126,
-                "lastTickAt": 1776503463664,
-                "endsAt": 1776545931126,
+                "lastTickAt": 1776548181876,
+                "endsAt": 1776548181876,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
                 "totalMined": 17,
                 "totalSpent": 2471,
-                "lastCompletedAt": null,
+                "lastCompletedAt": 1776548181876,
                 "leaseId": "lease-1776459526677-ec8dsj",
                 "downtimeActive": false,
                 "downtimeStartedAt": null,
-                "downtimeRecoveredAt": 1776497254030
+                "downtimeRecoveredAt": 1776548178902
               },
               {
                 "id": "ext-basic-6",
                 "name": "Basic Extractor Yard #6",
                 "tier": 1,
-                "active": true,
+                "active": false,
                 "startedAt": 1776459531616,
-                "lastTickAt": 1776503463664,
-                "endsAt": 1776545931616,
+                "lastTickAt": 1776548181876,
+                "endsAt": 1776548181876,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
                 "totalMined": 17,
                 "totalSpent": 2471,
-                "lastCompletedAt": null,
+                "lastCompletedAt": 1776548181876,
                 "leaseId": "lease-1776459526677-ec8dsj",
                 "downtimeActive": false,
                 "downtimeStartedAt": null,
-                "downtimeRecoveredAt": 1776497254030
+                "downtimeRecoveredAt": 1776548178902
               }
             ],
             "silicateExtractor": {
               "id": "ext-basic-1",
               "name": "Basic Extractor Yard #1",
               "tier": 1,
-              "active": true,
+              "active": false,
               "startedAt": 1776461578695,
-              "lastTickAt": 1776503463664,
-              "endsAt": 1776547978695,
+              "lastTickAt": 1776548181876,
+              "endsAt": 1776548181876,
               "throughputPerHour": 40,
               "operationCostPerHour": 640,
               "totalMined": 7961,
               "totalSpent": 121115,
-              "lastCompletedAt": 1776451421214,
+              "lastCompletedAt": 1776548181876,
               "leaseId": "lease-1775333048917-w5e9g0",
               "downtimeActive": false,
               "downtimeStartedAt": null,
-              "downtimeRecoveredAt": 1776375767130
+              "downtimeRecoveredAt": 1776548178902
             }
           },
           "unlocks": {
@@ -728,7 +728,7 @@
             "tt-energy-routing",
             "tt-material-compression"
           ],
-          "location": "Mars",
+          "location": "Earth",
           "investments": [],
           "levelProgress": {
             "level1": {
@@ -769,7 +769,7 @@
                 {
                   "id": "mine300",
                   "title": "Mine 300 Silicate",
-                  "progress": 16060,
+                  "progress": 16626,
                   "target": 300,
                   "complete": true
                 }
@@ -1136,11 +1136,120 @@
             "ceo-employee-motivation"
           ],
           "refineries": [],
-          "currentStationId": "mars-orbital-dock",
-          "travel": null
+          "currentStationId": "earth-station-prime",
+          "travel": null,
+          "activeMissions": [
+            {
+              "id": "ms-log-001",
+              "title": "Silicate Requisition Order — Batch 4-7A",
+              "type": "Logistics",
+              "risk": "Low",
+              "reward": "12,000 Credits",
+              "text": "Coordinator Voss requires 400 units of raw silicates delivered to her office for redistribution to ISA-contracted construction projects. Mine the quota from any active extraction lease and sell directly to the agent within the deadline.",
+              "agentId": "elara-voss",
+              "quota": {
+                "resource": "Silicates",
+                "amount": 400
+              }
+            }
+          ],
+          "credits": 60000,
+          "completedMissions": [
+            {
+              "id": "ms-log-001",
+              "title": "Silicate Requisition Order — Batch 4-7A",
+              "type": "Logistics",
+              "agentId": "elara-voss",
+              "reward": "12,000 Credits",
+              "completedAt": 1776554404145
+            },
+            {
+              "id": "ms-log-001",
+              "title": "Silicate Requisition Order — Batch 4-7A",
+              "type": "Logistics",
+              "agentId": "elara-voss",
+              "reward": "12,000 Credits",
+              "completedAt": 1776554387901
+            },
+            {
+              "id": "ms-log-001",
+              "title": "Silicate Requisition Order — Batch 4-7A",
+              "type": "Logistics",
+              "agentId": "elara-voss",
+              "reward": "12,000 Credits",
+              "completedAt": 1776553934555
+            },
+            {
+              "id": "ms-log-001",
+              "title": "Silicate Requisition Order — Batch 4-7A",
+              "type": "Logistics",
+              "agentId": "elara-voss",
+              "reward": "12,000 Credits",
+              "completedAt": 1776553224780
+            }
+          ],
+          "agentReputation": {
+            "elara-voss": {
+              "completedCount": 4
+            }
+          },
+          "contractOfferings": {
+            "missions": [
+              {
+                "id": "ms-log-009",
+                "title": "Cobalt Shipment — Alloy Programme",
+                "type": "Logistics",
+                "risk": "Medium",
+                "reward": "18,000 Credits",
+                "text": "The metallurgy division requires cobalt for high-temperature alloy production. Deliver 250 units to satisfy the current programme quota.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Cobalt",
+                  "amount": 250
+                }
+              },
+              {
+                "id": "ms-log-002",
+                "title": "Nickel Freight Manifest — Consignment 9-2B",
+                "type": "Logistics",
+                "risk": "Low",
+                "reward": "15,000 Credits",
+                "text": "The Bureau has flagged a shortfall of nickel across ISA-administered construction depots. Deliver 300 units of nickel to fulfil this standing requisition order.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Nickel",
+                  "amount": 300
+                }
+              },
+              {
+                "id": "ms-log-003",
+                "title": "Carbon Fibre Supply Run — Priority C",
+                "type": "Logistics",
+                "risk": "Low",
+                "reward": "10,000 Credits",
+                "text": "Station maintenance divisions require a resupply of carbon for composite fabrication. Source and deliver 500 units to the contracting office.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Carbon",
+                  "amount": 500
+                }
+              }
+            ],
+            "nextRefreshAt": 1776561494424
+          }
         },
         "queues": {
-          "corporateRnD": [],
+          "corporateRnD": [
+            {
+              "id": "rnd-1776547076006",
+              "techId": "tt-nano-lattice",
+              "name": "Nano-Lattice Weaving",
+              "effect": "Unlocks Aerogel and Quantum Insulator refinery chains",
+              "durationHours": 12,
+              "startedAt": 1776547076006,
+              "costCredits": 8000
+            }
+          ],
           "ceoInsight": []
         },
         "market": {
@@ -1253,34 +1362,6 @@
       "createdAt": 1775098865694,
       "refreshTokens": [
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE5NDEwLCJleHAiOjE3Nzg5MTE0MTB9.gBx_eBtdFTMEhwgskgzf5-x1wIdiaAjwcGF7R745sys",
-          "expiresAt": 1778911410894
-        },
-        {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE5NDEzLCJleHAiOjE3Nzg5MTE0MTN9.nd5RdOADMevUtQp-Dfep-lsMwCCTMItAiAFL4I9_UKs",
-          "expiresAt": 1778911413005
-        },
-        {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzE5NDIzLCJleHAiOjE3Nzg5MTE0MjN9.pRx2oTlia6vC4Y18L0Q4uokJSKT1-cfshp1WjF77Sro",
-          "expiresAt": 1778911423599
-        },
-        {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzIwMjMxLCJleHAiOjE3Nzg5MTIyMzF9.y46D3YCfuLgtKoRgEqFfp6_4mtyjwmvWGOTPjkeN0j4",
-          "expiresAt": 1778912231855
-        },
-        {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2MzY4NzMyLCJleHAiOjE3Nzg5NjA3MzJ9.vfJZ6qWfqUWnrGTEWeuMTBkYYUdnMLNrbGjtKx4d_JQ",
-          "expiresAt": 1778960732167
-        },
-        {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDUxNDgxLCJleHAiOjE3NzkwNDM0ODF9.VrU8oKBkFwVI-MtYUbXecEmcdcQUR1yiZp3-WliapXQ",
-          "expiresAt": 1779043481739
-        },
-        {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDUzODU5LCJleHAiOjE3NzkwNDU4NTl9.1s9sn2B4fRPtKiv1vJyoJCmwPoBA-fzNXK8COaLb9KA",
-          "expiresAt": 1779045859804
-        },
-        {
           "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDU2MTkwLCJleHAiOjE3NzkwNDgxOTB9.pKIFl32dG8cGFIW3xera2ZZR4I-H3zZkEkz9770lZN0",
           "expiresAt": 1779048190735
         },
@@ -1291,9 +1372,64 @@
         {
           "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDk2Mzk5LCJleHAiOjE3NzkwODgzOTl9.jcBOJ4lTp6Xj0Oik_oC3-iJFZEGKbAibWsABpHotCPI",
           "expiresAt": 1779088399208
+        },
+        {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTUxNTg2LCJleHAiOjE3NzkxNDM1ODZ9.je8godRHW67mPehixVo5DMWudIUpGg61MLKPCHXCIKI",
+          "expiresAt": 1779143586650
+        },
+        {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTUxNTkwLCJleHAiOjE3NzkxNDM1OTB9.w1UvExOzPogwG0DW86Cjttt09Ln4fXVikCogKD7fUYs",
+          "expiresAt": 1779143590854
+        },
+        {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTUxNzYxLCJleHAiOjE3NzkxNDM3NjF9.QSrsBZiaUomFYoIhwX6zrwLsPwmJ5QfTdysULvOsQlU",
+          "expiresAt": 1779143761663
+        },
+        {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTUyMTg2LCJleHAiOjE3NzkxNDQxODZ9.QDxh9GFGie1WPw9ep4LikYhlQQqnx5tADpAlB0p80js",
+          "expiresAt": 1779144186735
+        },
+        {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTUyMTkzLCJleHAiOjE3NzkxNDQxOTN9.zHKYzVuoflGNi2kAgumLetmzx4uKggR0lfS2YM_nPMg",
+          "expiresAt": 1779144193059
+        },
+        {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTUyNDkxLCJleHAiOjE3NzkxNDQ0OTF9.Fw6G_hNBJHz9F0Fkp7rzwI_7VrHtgGk0jddMDIujKuw",
+          "expiresAt": 1779144491887
+        },
+        {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTU0MzQ3LCJleHAiOjE3NzkxNDYzNDd9.gFi8d9bD5sAIjImUyb7DQiOxiTFd31DMqu5VsLuF0qA",
+          "expiresAt": 1779146347785
         }
       ],
       "notifications": [
+        {
+          "id": "ntf-1776548643476-1h7s44li",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Docking Complete",
+          "body": "Your ship has arrived at Earth Station Prime (Earth, SOL).",
+          "createdAt": 1776548643476,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776548582567-p3kfjjfm",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Undocking — Course Set",
+          "body": "Undocking and setting course for Earth Station Prime (Earth, SOL). Estimated arrival in 1 minutes.",
+          "createdAt": 1776548582567,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776547076006-6rbh0ive",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Queued",
+          "body": "Nano-Lattice Weaving has been queued in corporate research.",
+          "createdAt": 1776547076006,
+          "readAt": null
+        },
         {
           "id": "ntf-1776496376941-07krg45a",
           "accountId": "dummy",
@@ -3115,7 +3251,54 @@
           "completedInsights": [],
           "refineries": [],
           "currentStationId": "earth-station-prime",
-          "travel": null
+          "travel": null,
+          "activeMissions": [],
+          "completedMissions": [],
+          "agentReputation": {},
+          "contractOfferings": {
+            "missions": [
+              {
+                "id": "ms-log-003",
+                "title": "Carbon Fibre Supply Run — Priority C",
+                "type": "Logistics",
+                "risk": "Low",
+                "reward": "10,000 Credits",
+                "text": "Station maintenance divisions require a resupply of carbon for composite fabrication. Source and deliver 500 units to the contracting office.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Carbon",
+                  "amount": 500
+                }
+              },
+              {
+                "id": "ms-log-008",
+                "title": "Lithium Cell Stockpile — Battery Reserve",
+                "type": "Logistics",
+                "risk": "Medium",
+                "reward": "22,000 Credits",
+                "text": "Energy storage facilities need lithium for next-generation battery cell production. Source and deliver 200 units to the contracting office to fulfil this standing order.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Lithium",
+                  "amount": 200
+                }
+              },
+              {
+                "id": "ms-log-002",
+                "title": "Nickel Freight Manifest — Consignment 9-2B",
+                "type": "Logistics",
+                "risk": "Low",
+                "reward": "15,000 Credits",
+                "text": "The Bureau has flagged a shortfall of nickel across ISA-administered construction depots. Deliver 300 units of nickel to fulfil this standing requisition order.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Nickel",
+                  "amount": 300
+                }
+              }
+            ],
+            "nextRefreshAt": 1776561494425
+          }
         },
         "queues": {
           "corporateRnD": [],
@@ -4098,7 +4281,54 @@
           "completedInsights": [],
           "refineries": [],
           "currentStationId": "earth-station-prime",
-          "travel": null
+          "travel": null,
+          "activeMissions": [],
+          "completedMissions": [],
+          "agentReputation": {},
+          "contractOfferings": {
+            "missions": [
+              {
+                "id": "ms-log-006",
+                "title": "Water Ice Procurement — Habitat Sustainment",
+                "type": "Logistics",
+                "risk": "Low",
+                "reward": "8,000 Credits",
+                "text": "Life-support divisions have requisitioned 600 units of water ice for processing into potable reserves. Standard sustainment contract — deliver to the Bureau at your earliest.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Water Ice",
+                  "amount": 600
+                }
+              },
+              {
+                "id": "ms-log-007",
+                "title": "Rare Earths Acquisition — R&D Allocation",
+                "type": "Logistics",
+                "risk": "High",
+                "reward": "35,000 Credits",
+                "text": "The ISA's applied sciences division has requested rare earth elements for experimental fabrication. Deliver 150 units. Extraction difficulty is noted — compensation reflects the challenge.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Rare Earths",
+                  "amount": 150
+                }
+              },
+              {
+                "id": "ms-log-005",
+                "title": "Titanium Structural Allotment — Frame Series 12",
+                "type": "Logistics",
+                "risk": "Medium",
+                "reward": "20,000 Credits",
+                "text": "Station expansion projects require titanium for structural framework assembly. Deliver 250 units to satisfy this month's allotment schedule.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Titanium",
+                  "amount": 250
+                }
+              }
+            ],
+            "nextRefreshAt": 1776561494425
+          }
         },
         "queues": {
           "corporateRnD": [],
@@ -5085,7 +5315,54 @@
           "completedInsights": [],
           "refineries": [],
           "currentStationId": "earth-station-prime",
-          "travel": null
+          "travel": null,
+          "activeMissions": [],
+          "completedMissions": [],
+          "agentReputation": {},
+          "contractOfferings": {
+            "missions": [
+              {
+                "id": "ms-log-003",
+                "title": "Carbon Fibre Supply Run — Priority C",
+                "type": "Logistics",
+                "risk": "Low",
+                "reward": "10,000 Credits",
+                "text": "Station maintenance divisions require a resupply of carbon for composite fabrication. Source and deliver 500 units to the contracting office.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Carbon",
+                  "amount": 500
+                }
+              },
+              {
+                "id": "ms-log-008",
+                "title": "Lithium Cell Stockpile — Battery Reserve",
+                "type": "Logistics",
+                "risk": "Medium",
+                "reward": "22,000 Credits",
+                "text": "Energy storage facilities need lithium for next-generation battery cell production. Source and deliver 200 units to the contracting office to fulfil this standing order.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Lithium",
+                  "amount": 200
+                }
+              },
+              {
+                "id": "ms-log-002",
+                "title": "Nickel Freight Manifest — Consignment 9-2B",
+                "type": "Logistics",
+                "risk": "Low",
+                "reward": "15,000 Credits",
+                "text": "The Bureau has flagged a shortfall of nickel across ISA-administered construction depots. Deliver 300 units of nickel to fulfil this standing requisition order.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Nickel",
+                  "amount": 300
+                }
+              }
+            ],
+            "nextRefreshAt": 1776561494426
+          }
         },
         "queues": {
           "corporateRnD": [],
@@ -6072,7 +6349,54 @@
           "completedInsights": [],
           "refineries": [],
           "currentStationId": "earth-station-prime",
-          "travel": null
+          "travel": null,
+          "activeMissions": [],
+          "completedMissions": [],
+          "agentReputation": {},
+          "contractOfferings": {
+            "missions": [
+              {
+                "id": "ms-log-001",
+                "title": "Silicate Requisition Order — Batch 4-7A",
+                "type": "Logistics",
+                "risk": "Low",
+                "reward": "12,000 Credits",
+                "text": "Coordinator Voss requires 400 units of raw silicates delivered to her office for redistribution to ISA-contracted construction projects. Mine the quota from any active extraction lease and sell directly to the agent within the deadline.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Silicates",
+                  "amount": 400
+                }
+              },
+              {
+                "id": "ms-log-002",
+                "title": "Nickel Freight Manifest — Consignment 9-2B",
+                "type": "Logistics",
+                "risk": "Low",
+                "reward": "15,000 Credits",
+                "text": "The Bureau has flagged a shortfall of nickel across ISA-administered construction depots. Deliver 300 units of nickel to fulfil this standing requisition order.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Nickel",
+                  "amount": 300
+                }
+              },
+              {
+                "id": "ms-log-008",
+                "title": "Lithium Cell Stockpile — Battery Reserve",
+                "type": "Logistics",
+                "risk": "Medium",
+                "reward": "22,000 Credits",
+                "text": "Energy storage facilities need lithium for next-generation battery cell production. Source and deliver 200 units to the contracting office to fulfil this standing order.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Lithium",
+                  "amount": 200
+                }
+              }
+            ],
+            "nextRefreshAt": 1776561494426
+          }
         },
         "queues": {
           "corporateRnD": [],
@@ -7059,7 +7383,54 @@
           "completedInsights": [],
           "refineries": [],
           "currentStationId": "earth-station-prime",
-          "travel": null
+          "travel": null,
+          "activeMissions": [],
+          "completedMissions": [],
+          "agentReputation": {},
+          "contractOfferings": {
+            "missions": [
+              {
+                "id": "ms-log-004",
+                "title": "Helium-3 Emergency Allocation — Directive 77",
+                "type": "Logistics",
+                "risk": "Medium",
+                "reward": "24,000 Credits",
+                "text": "Reactor fuel reserves are approaching critical minimums. The ISA has issued a priority directive: deliver 200 units of Helium-3 to the Bureau for immediate redistribution to power infrastructure.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Helium-3",
+                  "amount": 200
+                }
+              },
+              {
+                "id": "ms-log-001",
+                "title": "Silicate Requisition Order — Batch 4-7A",
+                "type": "Logistics",
+                "risk": "Low",
+                "reward": "12,000 Credits",
+                "text": "Coordinator Voss requires 400 units of raw silicates delivered to her office for redistribution to ISA-contracted construction projects. Mine the quota from any active extraction lease and sell directly to the agent within the deadline.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Silicates",
+                  "amount": 400
+                }
+              },
+              {
+                "id": "ms-log-008",
+                "title": "Lithium Cell Stockpile — Battery Reserve",
+                "type": "Logistics",
+                "risk": "Medium",
+                "reward": "22,000 Credits",
+                "text": "Energy storage facilities need lithium for next-generation battery cell production. Source and deliver 200 units to the contracting office to fulfil this standing order.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Lithium",
+                  "amount": 200
+                }
+              }
+            ],
+            "nextRefreshAt": 1776561494426
+          }
         },
         "queues": {
           "corporateRnD": [],
@@ -8046,7 +8417,54 @@
           "completedInsights": [],
           "refineries": [],
           "currentStationId": "earth-station-prime",
-          "travel": null
+          "travel": null,
+          "activeMissions": [],
+          "completedMissions": [],
+          "agentReputation": {},
+          "contractOfferings": {
+            "missions": [
+              {
+                "id": "ms-log-009",
+                "title": "Cobalt Shipment — Alloy Programme",
+                "type": "Logistics",
+                "risk": "Medium",
+                "reward": "18,000 Credits",
+                "text": "The metallurgy division requires cobalt for high-temperature alloy production. Deliver 250 units to satisfy the current programme quota.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Cobalt",
+                  "amount": 250
+                }
+              },
+              {
+                "id": "ms-log-004",
+                "title": "Helium-3 Emergency Allocation — Directive 77",
+                "type": "Logistics",
+                "risk": "Medium",
+                "reward": "24,000 Credits",
+                "text": "Reactor fuel reserves are approaching critical minimums. The ISA has issued a priority directive: deliver 200 units of Helium-3 to the Bureau for immediate redistribution to power infrastructure.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Helium-3",
+                  "amount": 200
+                }
+              },
+              {
+                "id": "ms-log-003",
+                "title": "Carbon Fibre Supply Run — Priority C",
+                "type": "Logistics",
+                "risk": "Low",
+                "reward": "10,000 Credits",
+                "text": "Station maintenance divisions require a resupply of carbon for composite fabrication. Source and deliver 500 units to the contracting office.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Carbon",
+                  "amount": 500
+                }
+              }
+            ],
+            "nextRefreshAt": 1776561494427
+          }
         },
         "queues": {
           "corporateRnD": [],
@@ -9103,7 +9521,54 @@
           "completedInsights": [],
           "refineries": [],
           "currentStationId": "earth-station-prime",
-          "travel": null
+          "travel": null,
+          "activeMissions": [],
+          "completedMissions": [],
+          "agentReputation": {},
+          "contractOfferings": {
+            "missions": [
+              {
+                "id": "ms-log-009",
+                "title": "Cobalt Shipment — Alloy Programme",
+                "type": "Logistics",
+                "risk": "Medium",
+                "reward": "18,000 Credits",
+                "text": "The metallurgy division requires cobalt for high-temperature alloy production. Deliver 250 units to satisfy the current programme quota.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Cobalt",
+                  "amount": 250
+                }
+              },
+              {
+                "id": "ms-log-010",
+                "title": "Thorium Fuel Rods — Reactor Consignment",
+                "type": "Logistics",
+                "risk": "High",
+                "reward": "30,000 Credits",
+                "text": "Next-generation reactor trials require thorium. The ISA has authorised a premium-rate contract for 100 units delivered to the Bureau. Handle with appropriate caution.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Thorium",
+                  "amount": 100
+                }
+              },
+              {
+                "id": "ms-log-007",
+                "title": "Rare Earths Acquisition — R&D Allocation",
+                "type": "Logistics",
+                "risk": "High",
+                "reward": "35,000 Credits",
+                "text": "The ISA's applied sciences division has requested rare earth elements for experimental fabrication. Deliver 150 units. Extraction difficulty is noted — compensation reflects the challenge.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Rare Earths",
+                  "amount": 150
+                }
+              }
+            ],
+            "nextRefreshAt": 1776561494427
+          }
         },
         "queues": {
           "corporateRnD": [],
@@ -10147,7 +10612,54 @@
           "completedInsights": [],
           "refineries": [],
           "currentStationId": "earth-station-prime",
-          "travel": null
+          "travel": null,
+          "activeMissions": [],
+          "completedMissions": [],
+          "agentReputation": {},
+          "contractOfferings": {
+            "missions": [
+              {
+                "id": "ms-log-003",
+                "title": "Carbon Fibre Supply Run — Priority C",
+                "type": "Logistics",
+                "risk": "Low",
+                "reward": "10,000 Credits",
+                "text": "Station maintenance divisions require a resupply of carbon for composite fabrication. Source and deliver 500 units to the contracting office.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Carbon",
+                  "amount": 500
+                }
+              },
+              {
+                "id": "ms-log-005",
+                "title": "Titanium Structural Allotment — Frame Series 12",
+                "type": "Logistics",
+                "risk": "Medium",
+                "reward": "20,000 Credits",
+                "text": "Station expansion projects require titanium for structural framework assembly. Deliver 250 units to satisfy this month's allotment schedule.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Titanium",
+                  "amount": 250
+                }
+              },
+              {
+                "id": "ms-log-010",
+                "title": "Thorium Fuel Rods — Reactor Consignment",
+                "type": "Logistics",
+                "risk": "High",
+                "reward": "30,000 Credits",
+                "text": "Next-generation reactor trials require thorium. The ISA has authorised a premium-rate contract for 100 units delivered to the Bureau. Handle with appropriate caution.",
+                "agentId": "elara-voss",
+                "quota": {
+                  "resource": "Thorium",
+                  "amount": 100
+                }
+              }
+            ],
+            "nextRefreshAt": 1776561494427
+          }
         },
         "queues": {
           "corporateRnD": [],
