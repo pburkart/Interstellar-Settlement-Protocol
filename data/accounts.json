@@ -552,10 +552,10 @@
             }
           },
           "finances": {
-            "credits": 1714653,
+            "credits": 1690850,
             "liabilities": 0,
             "assets": 376000,
-            "dailyRevenue": 48624,
+            "dailyRevenue": 51684,
             "dailyCosts": 1680,
             "liquidity": 90000,
             "liquidityCap": 90000,
@@ -568,17 +568,17 @@
             },
             "taxRatePct": 14,
             "bondYieldPct": 0,
-            "exchangeSalesTaxPct": 6
+            "exchangeSalesTaxPct": 4
           },
           "inventory": {
             "earth-station-prime": {
               "Silicates": 743
             },
             "mars-orbital-dock": {
-              "Silicates": 18
+              "Silicates": 868
             },
             "luna-gateway": {
-              "Silicates": 18
+              "Silicates": 443
             }
           },
           "mining": {
@@ -589,12 +589,12 @@
                 "tier": 1,
                 "active": true,
                 "startedAt": 1776461578695,
-                "lastTickAt": 1776463526504,
+                "lastTickAt": 1776502298244,
                 "endsAt": 1776547978695,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
-                "totalMined": 7528,
-                "totalSpent": 113893,
+                "totalMined": 7953,
+                "totalSpent": 120897,
                 "lastCompletedAt": 1776451421214,
                 "leaseId": "lease-1775333048917-w5e9g0",
                 "downtimeActive": false,
@@ -607,12 +607,12 @@
                 "tier": 1,
                 "active": true,
                 "startedAt": 1776461579226,
-                "lastTickAt": 1776463526504,
+                "lastTickAt": 1776502298244,
                 "endsAt": 1776547979226,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
-                "totalMined": 7173,
-                "totalSpent": 104416,
+                "totalMined": 7598,
+                "totalSpent": 111420,
                 "lastCompletedAt": 1776452321703,
                 "leaseId": "lease-1775333048917-w5e9g0",
                 "downtimeActive": false,
@@ -625,12 +625,12 @@
                 "tier": 1,
                 "active": true,
                 "startedAt": 1776458796078,
-                "lastTickAt": 1776463526504,
+                "lastTickAt": 1776502298244,
                 "endsAt": 1776545196078,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
-                "totalMined": 9,
-                "totalSpent": 1405,
+                "totalMined": 434,
+                "totalSpent": 8409,
                 "lastCompletedAt": null,
                 "leaseId": "lease-1776458790965-rvyp9b",
                 "downtimeActive": false,
@@ -643,17 +643,17 @@
                 "tier": 1,
                 "active": true,
                 "startedAt": 1776458795656,
-                "lastTickAt": 1776463526504,
+                "lastTickAt": 1776502298244,
                 "endsAt": 1776545195656,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
                 "totalMined": 9,
-                "totalSpent": 1405,
+                "totalSpent": 2218,
                 "lastCompletedAt": null,
                 "leaseId": "lease-1776458790965-rvyp9b",
                 "downtimeActive": false,
                 "downtimeStartedAt": null,
-                "downtimeRecoveredAt": null
+                "downtimeRecoveredAt": 1776500445329
               },
               {
                 "id": "ext-basic-5",
@@ -661,17 +661,17 @@
                 "tier": 1,
                 "active": true,
                 "startedAt": 1776459531126,
-                "lastTickAt": 1776463526504,
+                "lastTickAt": 1776502298244,
                 "endsAt": 1776545931126,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
                 "totalMined": 9,
-                "totalSpent": 1264,
+                "totalSpent": 2253,
                 "lastCompletedAt": null,
                 "leaseId": "lease-1776459526677-ec8dsj",
                 "downtimeActive": false,
                 "downtimeStartedAt": null,
-                "downtimeRecoveredAt": null
+                "downtimeRecoveredAt": 1776497254030
               },
               {
                 "id": "ext-basic-6",
@@ -679,17 +679,17 @@
                 "tier": 1,
                 "active": true,
                 "startedAt": 1776459531616,
-                "lastTickAt": 1776463526504,
+                "lastTickAt": 1776502298244,
                 "endsAt": 1776545931616,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
                 "totalMined": 9,
-                "totalSpent": 1264,
+                "totalSpent": 2253,
                 "lastCompletedAt": null,
                 "leaseId": "lease-1776459526677-ec8dsj",
                 "downtimeActive": false,
                 "downtimeStartedAt": null,
-                "downtimeRecoveredAt": null
+                "downtimeRecoveredAt": 1776497254030
               }
             ],
             "silicateExtractor": {
@@ -698,12 +698,12 @@
               "tier": 1,
               "active": true,
               "startedAt": 1776461578695,
-              "lastTickAt": 1776463526504,
+              "lastTickAt": 1776502298244,
               "endsAt": 1776547978695,
               "throughputPerHour": 40,
               "operationCostPerHour": 640,
-              "totalMined": 7528,
-              "totalSpent": 113893,
+              "totalMined": 7953,
+              "totalSpent": 120897,
               "lastCompletedAt": 1776451421214,
               "leaseId": "lease-1775333048917-w5e9g0",
               "downtimeActive": false,
@@ -725,7 +725,8 @@
             "tt-basic-extraction",
             "tt-industrial-safety",
             "tt-supply-forecast",
-            "tt-energy-routing"
+            "tt-energy-routing",
+            "tt-material-compression"
           ],
           "location": "Mars",
           "investments": [],
@@ -768,7 +769,7 @@
                 {
                   "id": "mine300",
                   "title": "Mine 300 Silicate",
-                  "progress": 14737,
+                  "progress": 16012,
                   "target": 300,
                   "complete": true
                 }
@@ -1130,44 +1131,17 @@
             }
           ],
           "completedInsights": [
-            "ceo-negotiation-fundamentals"
+            "ceo-negotiation-fundamentals",
+            "ceo-negotiation-fundamentals",
+            "ceo-employee-motivation"
           ],
           "refineries": [],
           "currentStationId": "mars-orbital-dock",
           "travel": null
         },
         "queues": {
-          "corporateRnD": [
-            {
-              "id": "rnd-1776451732546",
-              "techId": "tt-material-compression",
-              "name": "Material Compression I",
-              "effect": "+8% refining throughput",
-              "durationHours": 9,
-              "startedAt": 1776451732546,
-              "costCredits": 6000
-            }
-          ],
-          "ceoInsight": [
-            {
-              "id": "ceo-1776451491701",
-              "programId": "ceo-negotiation-fundamentals",
-              "name": "Negotiation Fundamentals",
-              "effect": "-2% GEX sales tax",
-              "durationHours": 4,
-              "startedAt": 1776451491701,
-              "costCredits": 10000
-            },
-            {
-              "id": "ceo-1776451885026",
-              "programId": "ceo-employee-motivation",
-              "name": "Employee Motivation Techniques",
-              "effect": "-10% morale decay",
-              "durationHours": 6,
-              "startedAt": 1776451885026,
-              "costCredits": 14000
-            }
-          ]
+          "corporateRnD": [],
+          "ceoInsight": []
         },
         "market": {
           "orderBook": [
@@ -1315,11 +1289,38 @@
           "expiresAt": 1779048196415
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDYzNDY4LCJleHAiOjE3NzkwNTU0Njh9.R8Ki7ItPFNTUtOr53crwvA0vX8nF5MTggBtsuw1RuVA",
-          "expiresAt": 1779055468008
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDk2Mzk5LCJleHAiOjE3NzkwODgzOTl9.jcBOJ4lTp6Xj0Oik_oC3-iJFZEGKbAibWsABpHotCPI",
+          "expiresAt": 1779088399208
         }
       ],
       "notifications": [
+        {
+          "id": "ntf-1776496376941-07krg45a",
+          "accountId": "dummy",
+          "type": "insight",
+          "title": "CEO Insight Complete",
+          "body": "Employee Motivation Techniques has been completed.",
+          "createdAt": 1776496376941,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776496376941-1u6x7onk",
+          "accountId": "dummy",
+          "type": "insight",
+          "title": "CEO Insight Complete",
+          "body": "Negotiation Fundamentals has been completed.",
+          "createdAt": 1776496376941,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776496376938-ori1h6lz",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Complete",
+          "body": "Material Compression I has been completed and applied to your corporation.",
+          "createdAt": 1776496376938,
+          "readAt": null
+        },
         {
           "id": "ntf-1776463301141-q3s7f4b4",
           "accountId": "dummy",
