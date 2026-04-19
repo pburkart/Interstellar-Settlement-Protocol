@@ -35,7 +35,7 @@
           ],
           "employeeCap": 80,
           "employeeCount": 15,
-          "buildingSlots": 8,
+          "buildingSlots": 10,
           "buildings": [
             {
               "name": "Headquarters",
@@ -71,6 +71,16 @@
               "name": "Basic Extractor Yard",
               "tier": 1,
               "status": "Operational"
+            },
+            {
+              "name": "Assembly Facility",
+              "tier": 1,
+              "status": "Operational"
+            },
+            {
+              "name": "Refinery",
+              "tier": 1,
+              "status": "Operational"
             }
           ],
           "military": {
@@ -85,9 +95,9 @@
             }
           },
           "finances": {
-            "credits": 1673614,
+            "credits": 1421024,
             "liabilities": 0,
-            "assets": 376000,
+            "assets": 496000,
             "dailyRevenue": 53157,
             "dailyCosts": 1680,
             "liquidity": 90000,
@@ -96,17 +106,25 @@
             "lastLiquidityTick": 1775324664707,
             "taxRatePct": 14,
             "bondYieldPct": 0,
-            "exchangeSalesTaxPct": 4
+            "exchangeSalesTaxPct": 2
           },
           "inventory": {
             "earth-station-prime": {
-              "Silicates": 49200
+              "Silicates": 49013
             },
             "mars-orbital-dock": {
               "Silicates": 1450
             },
             "luna-gateway": {
               "Silicates": 459
+            },
+            "ironwell-depot": {
+              "Nickel": 177,
+              "Silicates": 22,
+              "Titanium": 38,
+              "Hydrogen": 76,
+              "Carbon": 175,
+              "Cobalt": 46
             }
           },
           "mining": {
@@ -187,14 +205,14 @@
                 "id": "ext-basic-5",
                 "name": "Basic Extractor Yard #5",
                 "tier": 1,
-                "active": false,
-                "startedAt": 1776459531126,
-                "lastTickAt": 1776548181876,
-                "endsAt": 1776548181876,
+                "active": true,
+                "startedAt": 1776567821001,
+                "lastTickAt": 1776569358698,
+                "endsAt": 1776654221001,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
                 "totalMined": 17,
-                "totalSpent": 2471,
+                "totalSpent": 3266,
                 "lastCompletedAt": 1776548181876,
                 "leaseId": "lease-1776459526677-ec8dsj",
                 "downtimeActive": false,
@@ -205,14 +223,14 @@
                 "id": "ext-basic-6",
                 "name": "Basic Extractor Yard #6",
                 "tier": 1,
-                "active": false,
-                "startedAt": 1776459531616,
-                "lastTickAt": 1776548181876,
-                "endsAt": 1776548181876,
+                "active": true,
+                "startedAt": 1776567820342,
+                "lastTickAt": 1776569358698,
+                "endsAt": 1776654220342,
                 "throughputPerHour": 40,
                 "operationCostPerHour": 640,
                 "totalMined": 17,
-                "totalSpent": 2471,
+                "totalSpent": 3266,
                 "lastCompletedAt": 1776548181876,
                 "leaseId": "lease-1776459526677-ec8dsj",
                 "downtimeActive": false,
@@ -258,9 +276,14 @@
             "tt-fleet-coordination",
             "tt-proxima-navigation",
             "tt-deep-star-navigation",
-            "tt-nato-lattice"
+            "tt-nato-lattice",
+            "tt-assembly-fabrication",
+            "tt-asteroid-prospecting",
+            "tt-nano-lattice",
+            "tt-containment-physics",
+            "tt-exotic-energy-routing"
           ],
-          "location": "Ironwell",
+          "location": "Earth",
           "investments": [],
           "levelProgress": {
             "level1": {
@@ -569,6 +592,16 @@
               "rentedAt": 1776308608751,
               "rentedUntil": 1778727808751,
               "durationDays": 28
+            },
+            {
+              "stationId": "ironwell-depot",
+              "name": "Ironwell Mining Depot",
+              "body": "Ironwell",
+              "systemId": "barnards-star",
+              "tier": 2,
+              "rentedAt": 1776563854053,
+              "rentedUntil": 1777168654053,
+              "durationDays": 7
             }
           ],
           "miningLeases": [
@@ -654,28 +687,37 @@
           "completedInsights": [
             "ceo-negotiation-fundamentals",
             "ceo-negotiation-fundamentals",
-            "ceo-employee-motivation"
+            "ceo-employee-motivation",
+            "ceo-negotiation-fundamentals"
           ],
-          "refineries": [],
-          "currentStationId": "ironwell-depot",
+          "refineries": [
+            {
+              "id": "ref-1",
+              "name": "Refinery #1",
+              "tier": 1,
+              "active": true,
+              "chainId": "silicates-chain",
+              "startedAt": 1776569269656,
+              "lastTickAt": 1776569269656,
+              "endsAt": 1776583669656,
+              "cyclesCompleted": 0,
+              "totalInputConsumed": 100,
+              "totalOutputProduced": 0
+            }
+          ],
+          "currentStationId": "earth-station-prime",
           "travel": null,
-          "activeMissions": [
+          "activeMissions": [],
+          "credits": 72000,
+          "completedMissions": [
             {
               "id": "ms-log-001",
               "title": "Silicate Requisition Order — Batch 4-7A",
               "type": "Logistics",
-              "risk": "Low",
-              "reward": "12,000 Credits",
-              "text": "Coordinator Voss requires 400 units of raw silicates delivered to her office for redistribution to ISA-contracted construction projects. Mine the quota from any active extraction lease and sell directly to the agent within the deadline.",
               "agentId": "elara-voss",
-              "quota": {
-                "resource": "Silicates",
-                "amount": 400
-              }
-            }
-          ],
-          "credits": 60000,
-          "completedMissions": [
+              "reward": "12,000 Credits",
+              "completedAt": 1776567579756
+            },
             {
               "id": "ms-log-001",
               "title": "Silicate Requisition Order — Batch 4-7A",
@@ -711,7 +753,7 @@
           ],
           "agentReputation": {
             "elara-voss": {
-              "completedCount": 4
+              "completedCount": 5
             }
           },
           "contractOfferings": {
@@ -745,14 +787,103 @@
             ],
             "nextRefreshAt": 1776570023988
           },
-          "currentSystemId": "barnards-star",
+          "currentSystemId": "sol",
           "asteroidMining": {
-            "probeCount": 0,
+            "probeCount": 2,
             "maxProbes": 2,
             "maxDeployments": 1,
             "activeExpeditions": [],
-            "completedExpeditions": [],
-            "scoutedBelts": []
+            "completedExpeditions": [
+              {
+                "id": "exp-1776566768743-jorl4u",
+                "beltKey": "sol:belt",
+                "systemId": "sol",
+                "duration": "extended",
+                "deployedAt": 1776566768743,
+                "completesAt": 1776566778743,
+                "lastTickAt": 1776566782997,
+                "launchCost": 3000,
+                "yields": {
+                  "Silicates": 313
+                },
+                "status": "completed",
+                "completedAt": 1776566782997,
+                "depositStationId": "earth-station-prime"
+              },
+              {
+                "id": "exp-1776565361908-hfteqs",
+                "beltKey": "barnards-star:bn-rift",
+                "systemId": "barnards-star",
+                "duration": "standard",
+                "deployedAt": 1776565361908,
+                "completesAt": 1776565371908,
+                "lastTickAt": 1776565376840,
+                "launchCost": 3000,
+                "yields": {
+                  "Cobalt": 46,
+                  "Titanium": 26,
+                  "Carbon": 97,
+                  "Nickel": 38
+                },
+                "status": "completed",
+                "completedAt": 1776565376840,
+                "depositStationId": "ironwell-depot"
+              },
+              {
+                "id": "exp-1776564926711-xusxas",
+                "beltKey": "barnards-star:bn-rift",
+                "systemId": "barnards-star",
+                "duration": "standard",
+                "deployedAt": 1776564926711,
+                "completesAt": 1776564936711,
+                "lastTickAt": 1776564938301,
+                "launchCost": 3000,
+                "yields": {
+                  "Silicates": 22,
+                  "Titanium": 12,
+                  "Hydrogen": 76,
+                  "Carbon": 78
+                },
+                "status": "completed",
+                "completedAt": 1776564938301,
+                "depositStationId": "ironwell-depot"
+              },
+              {
+                "id": "exp-1776564369927-edksdq",
+                "beltKey": "barnards-star:bn-rift",
+                "systemId": "barnards-star",
+                "duration": "standard",
+                "deployedAt": 1776564369927,
+                "completesAt": 1776564379927,
+                "lastTickAt": 1776564387179,
+                "launchCost": 3000,
+                "yields": {
+                  "Nickel": 139
+                },
+                "status": "completed",
+                "completedAt": 1776564387179,
+                "depositStationId": "ironwell-depot"
+              },
+              {
+                "id": "exp-1776564267863-jmxy5a",
+                "beltKey": "barnards-star:bn-rift",
+                "systemId": "barnards-star",
+                "duration": "extended",
+                "deployedAt": 1776564267863,
+                "completesAt": 1776564277863,
+                "lastTickAt": 1776564278388,
+                "launchCost": 3000,
+                "yields": {},
+                "status": "completed",
+                "completedAt": 1776564278388,
+                "depositStationId": "ironwell-depot"
+              }
+            ],
+            "scoutedBelts": [
+              "barnards-star:bn-rift",
+              "sol:belt"
+            ],
+            "fabricationQueue": []
           }
         },
         "queues": {
@@ -769,48 +900,420 @@
       "createdAt": 1775098865694,
       "refreshTokens": [
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDU2MTkwLCJleHAiOjE3NzkwNDgxOTB9.pKIFl32dG8cGFIW3xera2ZZR4I-H3zZkEkz9770lZN0",
-          "expiresAt": 1779048190735
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTY4NjI2LCJleHAiOjE3NzkxNjA2MjZ9.wBfeF6guoDQihTLgmHxTubdpbI1FJQ0zjfDpg8m9jiI",
+          "expiresAt": 1779160626763
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDU2MTk2LCJleHAiOjE3NzkwNDgxOTZ9.3ZPSqAhs5N_ZwikEris0KeUa8Cp3tmq0TvCkVf1LtDU",
-          "expiresAt": 1779048196415
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTY4NjMyLCJleHAiOjE3NzkxNjA2MzJ9.ZC7WWd4Ayx44atAtvykt1VEZM_6_83FSfO1x8WKeJoA",
+          "expiresAt": 1779160632776
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NDk2Mzk5LCJleHAiOjE3NzkwODgzOTl9.jcBOJ4lTp6Xj0Oik_oC3-iJFZEGKbAibWsABpHotCPI",
-          "expiresAt": 1779088399208
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTY4NjQ3LCJleHAiOjE3NzkxNjA2NDd9.0z8WZ10V5uxLc9mLz9-5wjJFmU6q8pQU4FDj2yfvabQ",
+          "expiresAt": 1779160647664
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTUxNTg2LCJleHAiOjE3NzkxNDM1ODZ9.je8godRHW67mPehixVo5DMWudIUpGg61MLKPCHXCIKI",
-          "expiresAt": 1779143586650
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTY4ODEzLCJleHAiOjE3NzkxNjA4MTN9.cQKzCilcpZSxbRFxwlNyzDpXRoGr8r3fmlSnxTFrsI0",
+          "expiresAt": 1779160813113
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTUxNTkwLCJleHAiOjE3NzkxNDM1OTB9.w1UvExOzPogwG0DW86Cjttt09Ln4fXVikCogKD7fUYs",
-          "expiresAt": 1779143590854
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTY4ODE1LCJleHAiOjE3NzkxNjA4MTV9.aLiyiyQsD3UZfsI9CsE4lnQS98RZdFOaisPpkVTRnO8",
+          "expiresAt": 1779160815342
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTUxNzYxLCJleHAiOjE3NzkxNDM3NjF9.QSrsBZiaUomFYoIhwX6zrwLsPwmJ5QfTdysULvOsQlU",
-          "expiresAt": 1779143761663
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTY4ODE2LCJleHAiOjE3NzkxNjA4MTZ9.GAtAHgoKUx0DGl1jy59AexK-hCx0bMWViKz0orBc2jU",
+          "expiresAt": 1779160816265
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTUyMTg2LCJleHAiOjE3NzkxNDQxODZ9.QDxh9GFGie1WPw9ep4LikYhlQQqnx5tADpAlB0p80js",
-          "expiresAt": 1779144186735
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTY4ODQzLCJleHAiOjE3NzkxNjA4NDN9.n541FWl9Jai2MxO4X-vJXtBC9hllLWJmajiz_Ojp5ow",
+          "expiresAt": 1779160843576
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTUyMTkzLCJleHAiOjE3NzkxNDQxOTN9.zHKYzVuoflGNi2kAgumLetmzx4uKggR0lfS2YM_nPMg",
-          "expiresAt": 1779144193059
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTY4ODUyLCJleHAiOjE3NzkxNjA4NTJ9.EuVxCEVMt40JHYqfHjN3-guGHK4TRHbr_WASjVZed1w",
+          "expiresAt": 1779160852321
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTUyNDkxLCJleHAiOjE3NzkxNDQ0OTF9.Fw6G_hNBJHz9F0Fkp7rzwI_7VrHtgGk0jddMDIujKuw",
-          "expiresAt": 1779144491887
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTY4OTIyLCJleHAiOjE3NzkxNjA5MjJ9.41sQMq6SeoRwz20xY7s_US4hvD5ar1AtC-wzjRtP6ew",
+          "expiresAt": 1779160922341
         },
         {
-          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTU0MzQ3LCJleHAiOjE3NzkxNDYzNDd9.gFi8d9bD5sAIjImUyb7DQiOxiTFd31DMqu5VsLuF0qA",
-          "expiresAt": 1779146347785
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkdW1teSIsImtpbmQiOiJyZWZyZXNoIiwiaWF0IjoxNzc2NTY5MDQ4LCJleHAiOjE3NzkxNjEwNDh9.jDpQb5PDzVjLiN4WRwCU_3nYhAvkW7op7ikuEYpDn-0",
+          "expiresAt": 1779161048815
         }
       ],
-      "notifications": [],
-      "messages": []
+      "notifications": [
+        {
+          "id": "ntf-1776569269657-o1mn49wq",
+          "accountId": "dummy",
+          "type": "operations",
+          "title": "Refinery Cycle Started",
+          "body": "Refinery #1 processing 100 Silicates → 40 Aerogel, 15 Quantum Insulators (4h).",
+          "createdAt": 1776569269657,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776569253522-u0tzkwbv",
+          "accountId": "dummy",
+          "type": "infrastructure",
+          "title": "Refinery Commissioned",
+          "body": "A new Refinery is now operational and ready for production runs.",
+          "createdAt": 1776569253522,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776567852226-qq5t7lgs",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Complete",
+          "body": "Exotic Energy Routing has been completed and applied to your corporation.",
+          "createdAt": 1776567852226,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776567848333-481g5jfv",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Queued",
+          "body": "Exotic Energy Routing has been queued in corporate research.",
+          "createdAt": 1776567848333,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776567847219-fcdqnfmh",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Complete",
+          "body": "Containment Physics I has been completed and applied to your corporation.",
+          "createdAt": 1776567847219,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776567845703-f34wghtj",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Queued",
+          "body": "Containment Physics I has been queued in corporate research.",
+          "createdAt": 1776567845703,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776567824186-qndfncd4",
+          "accountId": "dummy",
+          "type": "insight",
+          "title": "CEO Insight Complete",
+          "body": "Negotiation Fundamentals has been completed.",
+          "createdAt": 1776567824186,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776567824185-77md21zz",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Complete",
+          "body": "Nano-Lattice Weaving has been completed and applied to your corporation.",
+          "createdAt": 1776567824185,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776567821001-jkte0s71",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Mining Cycle Started",
+          "body": "Basic Extractor Yard #5 has begun silicate extraction operations.",
+          "createdAt": 1776567821001,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776567820343-tkbkc2cs",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Mining Cycle Started",
+          "body": "Basic Extractor Yard #6 has begun silicate extraction operations.",
+          "createdAt": 1776567820343,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776567764277-ns5bvoug",
+          "accountId": "dummy",
+          "type": "infrastructure",
+          "title": "Mining Probe Fabricated",
+          "body": "A new Mining Probe has been manufactured and is ready for deployment.",
+          "createdAt": 1776567764277,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776567750767-uqm0989v",
+          "accountId": "dummy",
+          "type": "infrastructure",
+          "title": "Probe Fabrication Started",
+          "body": "Mining Probe fabrication has begun. Estimated completion: 10 second(s).",
+          "createdAt": 1776567750767,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776567749258-rey3y5da",
+          "accountId": "dummy",
+          "type": "infrastructure",
+          "title": "Mining Probe Fabricated",
+          "body": "A new Mining Probe has been manufactured and is ready for deployment.",
+          "createdAt": 1776567749258,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776567738689-k0lkwren",
+          "accountId": "dummy",
+          "type": "infrastructure",
+          "title": "Probe Fabrication Started",
+          "body": "Mining Probe fabrication has begun. Estimated completion: 10 second(s).",
+          "createdAt": 1776567738689,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776567699132-gcwzylo4",
+          "accountId": "dummy",
+          "type": "insight",
+          "title": "CEO Insight Queued",
+          "body": "Negotiation Fundamentals has been enrolled in the CEO Insight Program.",
+          "createdAt": 1776567699132,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776567691151-s0b2ine1",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Queued",
+          "body": "Nano-Lattice Weaving has been queued in corporate research.",
+          "createdAt": 1776567691151,
+          "readAt": null
+        },
+        {
+          "id": "ntf-1776566782998-np581ptl",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Expedition Complete",
+          "body": "Mining probe has returned from belt. Yields: 313 Silicates. Resources deposited at earth-station-prime.",
+          "createdAt": 1776566782998,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776566768743-qnkynagz",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Expedition Launched",
+          "body": "Mining probe deployed to belt on a Deep Core Drill (10s) mission. Resources will be deposited upon return.",
+          "createdAt": 1776566768743,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776566730684-sq31zwr6",
+          "accountId": "dummy",
+          "type": "infrastructure",
+          "title": "Mining Probe Fabricated",
+          "body": "A new Mining Probe has been manufactured and is ready for deployment.",
+          "createdAt": 1776566730684,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776566495114-1nfkwcqj",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Docking Complete",
+          "body": "Your ship has arrived at Earth Station Prime (Earth, SOL).",
+          "createdAt": 1776566495114,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776566489351-gd879gnm",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Undocking — Course Set",
+          "body": "Setting course for Earth Station Prime (Earth). ETA < 1 minute.",
+          "createdAt": 1776566489351,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776566470092-dn7tbgj4",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "System Arrival",
+          "body": "Your ship has arrived in the Sol system. You are in open space — select a station to dock.",
+          "createdAt": 1776566470092,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776566461096-t1m0arkm",
+          "accountId": "dummy",
+          "type": "travel",
+          "title": "Interstellar Jump Initiated",
+          "body": "Initiating interstellar jump to the Sol system. ETA < 1 minute.",
+          "createdAt": 1776566461096,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776565376841-hhrclm6h",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Expedition Complete",
+          "body": "Mining probe has returned from bn-rift. Yields: 46 Cobalt, 26 Titanium, 97 Carbon, 38 Nickel. Resources deposited at ironwell-depot.",
+          "createdAt": 1776565376841,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776565361908-ba7ocle3",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Expedition Launched",
+          "body": "Mining probe deployed to bn-rift on a Standard Survey (10s) mission. Resources will be deposited upon return.",
+          "createdAt": 1776565361908,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776564938301-s1epp91h",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Expedition Complete",
+          "body": "Mining probe has returned from bn-rift. Yields: 22 Silicates, 12 Titanium, 76 Hydrogen, 78 Carbon. Resources deposited at ironwell-depot.",
+          "createdAt": 1776564938301,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776564926711-6h0xr4n2",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Expedition Launched",
+          "body": "Mining probe deployed to bn-rift on a Standard Survey (10s) mission. Resources will be deposited upon return.",
+          "createdAt": 1776564926711,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776564387179-rxfb4xeb",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Expedition Complete",
+          "body": "Mining probe has returned from bn-rift. Yields: 139 Nickel. Resources deposited at ironwell-depot.",
+          "createdAt": 1776564387179,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776564369927-rmvdtvcw",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Expedition Launched",
+          "body": "Mining probe deployed to bn-rift on a Standard Survey (10s) mission. Resources will be deposited upon return.",
+          "createdAt": 1776564369927,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776564278388-82tyh09j",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Expedition Complete",
+          "body": "Mining probe has returned from bn-rift. Yields: no resources. Resources deposited at ironwell-depot.",
+          "createdAt": 1776564278388,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776564267865-nzc5dqw8",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Expedition Launched",
+          "body": "Mining probe deployed to bn-rift on a Deep Core Drill (10s) mission. Resources will be deposited upon return.",
+          "createdAt": 1776564267865,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776564135456-t4inta0i",
+          "accountId": "dummy",
+          "type": "mining",
+          "title": "Expedition Launched",
+          "body": "Mining probe deployed to bn-rift on a Short Sweep (30 min) mission. Resources will be deposited upon return.",
+          "createdAt": 1776564135456,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776564014861-ikjlaoet",
+          "accountId": "dummy",
+          "type": "infrastructure",
+          "title": "Mining Probe Fabricated",
+          "body": "A new Mining Probe has been manufactured and is ready for deployment.",
+          "createdAt": 1776564014861,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776564013887-gil2o7dn",
+          "accountId": "dummy",
+          "type": "infrastructure",
+          "title": "Mining Probe Fabricated",
+          "body": "A new Mining Probe has been manufactured and is ready for deployment.",
+          "createdAt": 1776564013887,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776564004867-1n909avr",
+          "accountId": "dummy",
+          "type": "infrastructure",
+          "title": "Assembly Facility Online",
+          "body": "Your Assembly Facility is now operational. You may begin fabricating units.",
+          "createdAt": 1776564004867,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776563854053-cwvooxog",
+          "accountId": "dummy",
+          "type": "administration",
+          "title": "Office Lease Confirmed",
+          "body": "Your corporation now maintains a registered operational office at Ironwell Mining Depot.",
+          "createdAt": 1776563854053,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776563787328-cmft9xn6",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Queued",
+          "body": "Asteroid Prospecting Arrays has been queued in corporate research.",
+          "createdAt": 1776563787328,
+          "readAt": 1776566840502
+        },
+        {
+          "id": "ntf-1776563456838-cy3gshrk",
+          "accountId": "dummy",
+          "type": "research",
+          "title": "R&D Queued",
+          "body": "Assembly & Fabrication Systems has been queued in corporate research.",
+          "createdAt": 1776563456838,
+          "readAt": 1776566840502
+        }
+      ],
+      "messages": [
+        {
+          "id": "msg-1776566782998-slrdjsoe",
+          "fromType": "system",
+          "fromId": "system",
+          "fromName": "ISA Mineral Survey Division",
+          "toAccountId": "dummy",
+          "toName": "Protocol Sandbox Dynamics",
+          "subject": "Mining Probe Return — Belt [MPR-SOL-66782997]",
+          "body": "Attn: Protocol Sandbox Dynamics,\n\nThis report confirms the return of one (1) mining probe from the Belt asteroid field, Sol system. The probe completed a Deep Core Drill (10s) operation and has been recovered intact.\n\nRECOVERED MATERIAL MANIFEST\n────────────────────────────────────────\n     313 units — Silicates\n────────────────────────────────────────\n  Total: 313 units\n\nAll extracted material has been deposited into your registered inventory at Earth Station Prime. Standard ISA handling fees have been waived under current extraction licence terms.\n\nProbe status: Operational. Returned to available inventory.\n\nThis record is filed under your active extraction licence and may be subject to ISA audit. Retain for your records.\n\nRef: MPR-SOL-66782997\nISA Mineral Survey Division — Sol Sector Office",
+          "sentAt": 1776566782998,
+          "readAt": 1776566796121,
+          "folder": "inbox",
+          "trashedAt": null
+        },
+        {
+          "id": "msg-1776565376841-k1lc3l7f",
+          "fromType": "system",
+          "fromId": "system",
+          "fromName": "ISA Mineral Survey Division",
+          "toAccountId": "dummy",
+          "toName": "Protocol Sandbox Dynamics",
+          "subject": "Mining Probe Return — Bn Rift [MPR-BAR-65376840]",
+          "body": "Attn: Protocol Sandbox Dynamics,\n\nThis report confirms the return of one (1) mining probe from the Bn Rift asteroid field, Barnards Star system. The probe completed a Standard Survey (10s) operation and has been recovered intact.\n\nRECOVERED MATERIAL MANIFEST\n────────────────────────────────────────\n      46 units — Cobalt\n      26 units — Titanium\n      97 units — Carbon\n      38 units — Nickel\n────────────────────────────────────────\n  Total: 207 units\n\nAll extracted material has been deposited into your registered inventory at Ironwell Mining Depot. Standard ISA handling fees have been waived under current extraction licence terms.\n\nProbe status: Operational. Returned to available inventory.\n\nThis record is filed under your active extraction licence and may be subject to ISA audit. Retain for your records.\n\nRef: MPR-BAR-65376840\nISA Mineral Survey Division — Barnards Star Sector Office",
+          "sentAt": 1776565376841,
+          "readAt": 1776565413534,
+          "folder": "inbox",
+          "trashedAt": null
+        }
+      ]
     }
   }
 }
